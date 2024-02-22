@@ -1,13 +1,9 @@
-import { useContext } from "react";
 import styles from './TestemonialCard.module.css';
 
 const TestemonialCard = () => {
   return (
     <>
-      <div className={styles.testemonial_wrapper}>
-        <section className={styles.testemonial_title}>
-          <h2 className={styles.testemonial_title_text}>See to what others have said</h2>
-          <div className={styles.testemonialcards_wrapper}>
+      <div className={styles.testemonialcards_wrapper}>
             <div className={styles.card_wrapper}>
               <div className={styles.testemonial_card}>
                 <div className={styles.testemonial_card_picture_wrapper}>
@@ -29,9 +25,7 @@ const TestemonialCard = () => {
               </div>
             </div>
           </div>
-        </section>
-      </div>
-    </>
+        </>
   );
 }
 

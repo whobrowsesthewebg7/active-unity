@@ -1,0 +1,11 @@
+.testemonial_wrapper {
+  @apply container my-24 mx-auto md:px-6;
+}
+
+.testemonial_title {
+  @apply mb-32 text-center;
+}
+
+.testemonial_title_text {
+  @apply mb-12 text-3xl font-bold;
+}
