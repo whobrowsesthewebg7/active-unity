@@ -7,11 +7,11 @@ const Hero = () => {
 
   const openPopup = () => {
     setIsPopupOpen(true);
-  }
+  };
 
   const closePopup = () => {
     setIsPopupOpen(false);
-  }
+  };
 
   return (
     <div className={styles.parent}>
@@ -26,11 +26,11 @@ const Hero = () => {
           Explore Stockholm's vibrant activities with us! Your go-to guide for fun-filled adventures, cultural delights,
           and memorable experiences awaits. Embrace the joy of the city!
         </p>
-        <button className={styles.button} onClick={openPopup}>Subscribe</button>
+        <button className={styles.button} onClick={openPopup} aria-label="Open popup">
+          Subscribe
+        </button>
       </section>
-     {isPopupOpen && (
-     <Popup closePopup={closePopup} />
-     )}
+      {isPopupOpen && <Popup closePopup={closePopup} />}
     </div>
   );
 };
