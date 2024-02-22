@@ -16,7 +16,7 @@ const getCategoriesMap = () => {
 };
 
 export const ActiveUnityProviderContext = createContext({
-  getFeatureActivities: () => {},
+  getFeaturedActivities: () => {},
   getCategories: () => {},
   getUpcomingEvents: () => {},
   getTestimonials: () => {},
@@ -72,7 +72,7 @@ export const ActiveUnityProvider = ({ children }) => {
    * @param {Number} takeNEvents - specify how many events do you need, from 1 - 7
    * @returns {Array} - array of events
    */
-  const getFeatureActivities = (takeNEvents = 5) => {
+  const getFeaturedActivities = (takeNEvents = 5) => {
     const groupedEvents = groupBy("category_id")(events);
     const latestEvents =
       getTheLatestEventsOfCategoryGroupedEvents(groupedEvents);
@@ -130,7 +130,7 @@ export const ActiveUnityProvider = ({ children }) => {
   const getTestimonials = () => testimonials;
 
   const value = {
-    getFeatureActivities,
+    getFeaturedActivities,
     getUpcomingEvents,
     getCategories,
     getTestimonials,

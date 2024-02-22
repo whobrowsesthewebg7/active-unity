@@ -5,7 +5,7 @@ import useActiveUnity from "../../hooks/useActiveUnity";
 
 const Home = () => {
   const {
-    getFeatureActivities,
+    getFeaturedActivities,
     getUpcomingEvents,
     getCategories,
     getTestimonials,
@@ -13,7 +13,7 @@ const Home = () => {
   } = useActiveUnity();
 
   useEffect(() => {
-    const events = getFeatureActivities();
+    const events = getFeaturedActivities();
     const upcomingEvents = getUpcomingEvents(3);
     const categories = getCategories();
     const testimonials = getTestimonials();
