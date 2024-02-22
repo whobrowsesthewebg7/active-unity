@@ -1,11 +1,13 @@
 // import style from "./Home.module.css";
-
-import TestemonialCard from "../../components/Testemonials/TestemonialCard";
+import Hero from '../../components/Hero';
 
 const Home = () => {
-  return <>Landing Page
-  <TestemonialCard />
-  </>;
+  return (
+    <>
+      Landing Page
+      <Hero />
+    </>
+  );
 };
 
 export default Home;
