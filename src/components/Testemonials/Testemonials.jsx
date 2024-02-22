@@ -17,3 +17,10 @@ const Testemonials = () => {
 };
 
 export default Testemonials;
+
+
+
+/* 
+create array from import testemonials from json
+for each name create a card
+send name, image, date, statement as parameters */
