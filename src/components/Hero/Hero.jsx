@@ -31,7 +31,7 @@ const Hero = () => {
           fun-filled adventures, cultural delights, and memorable experiences
           awaits. Embrace the joy of the city!
         </p>
-        <button className={styles.button} onClick={openPopup}>
+        <button className={styles.button} onClick={openPopup} aria-label="Open popup">
           Subscribe
         </button>
       </section>
