@@ -1,7 +1,9 @@
 import TestemonialCard from "../Testemonialcard/TestemonialCard";
 import styles from "./Testemonials.module.css";
+import testimonials from "../../assets/mock.json"
 
 const Testemonials = () => {
+  /* console.log(testimonials); */
   return (
     <>
       <div className={styles.testemonial_wrapper}>
