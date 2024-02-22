@@ -4,7 +4,7 @@
 }
 
 .container {
-  @apply flex flex-col h-auto bg-white p-5 w-80 rounded
+  @apply flex flex-col h-auto bg-white p-5 w-80 rounded relative
   md:w-96 md:py-8
   lg:w-[720px] lg:py-10
 }
@@ -28,8 +28,15 @@
     lg:mr-4
 }
 
-.button {
+.confirmButton {
   @apply text-lg h-12 w-full rounded-full bg-rose-600 m-auto cursor-pointer hover:bg-rose-700
   transition-colors text-white
   lg:m-0 lg:h-14 lg:w-60
+}
+
+.closeButton {
+  @apply absolute text-3xl text-white -top-10 right-0 cursor-pointer hover:scale-150
+  transition-transform duration-300 transform
+  md:-right-8
+  lg:text-4xl lg:-right-10 lg:-top-12
 }
