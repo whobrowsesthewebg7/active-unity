@@ -1,44 +1,44 @@
-.testemonial-wrapper {
+.testemonial_wrapper {
   @apply container my-24 mx-auto md:px-6;
 }
 
-.testemonial-title {
+.testemonial_title {
   @apply mb-32 text-center;
 }
 
-.testemonial-title-text {
+.testemonial_title_text {
   @apply mb-12 text-3xl font-bold;
 }
 
-.testemonialcards-wrapper {
+.testemonialcards_wrapper {
   @apply grid gap-x-6 md:grid-cols-3 xl:gap-x-12;
 }
 
-.card-wrapper {
+.card_wrapper {
   @apply mb-6 lg:mb-0;
 }
 
-.testemonial-card {
+.testemonial_card {
   @apply block rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700;
 }
 
-.testemonial-card-picture-wrapper {
+.testemonial_card_picture_wrapper {
   @apply relative overflow-hidden bg-cover bg-no-repeat;
 }
 
-.testemonial-card-picture {
+.testemonial_card_picture {
   @apply w-full rounded-t-lg;
 }
 
-.testemonial-card-text {
+.testemonial_card_text {
   @apply p-6;
 }
 
-.testemonial-card-text-name {
+.testemonial_card_text_thename {
   @apply mb-2 text-lg font-bold;
 }
 
-.testemonial-card-text-work {
+.testemonial_card_text_work {
   @apply mb-4 font-medium /* text-primary dark:text-primary-400 */;
 }
 
