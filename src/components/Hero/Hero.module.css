@@ -1,0 +1,33 @@
+.parent {
+    @apply bg-zinc-800 h-full w-full
+
+}
+.content {
+    @apply flex flex-col min-w-28 text-white px-3.5 py-8 top-0
+    md:top-1/3 md:p-10 md:absolute 
+    lg:w-1/2
+}
+
+.video {
+    @apply w-full h-full object-cover
+}
+
+.title{
+    @apply text-4xl font-bold mb-4
+    lg:text-5xl lg:mb-8
+}
+
+.subtitle {
+    @apply text-3xl mb-2.5
+}
+
+.paragraph {
+    @apply text-xl mb-7
+    lg:text-2xl lg:mb-10
+}
+
+.button {
+    @apply text-lg h-12 w-60 rounded-full bg-rose-600 m-auto cursor-pointer hover:bg-rose-700
+    transition-colors
+    lg:m-0
+}
