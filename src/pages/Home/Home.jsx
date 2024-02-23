@@ -1,6 +1,7 @@
 // import style from "./Home.module.css";
 import { useEffect } from "react";
 import Hero from "../../components/Hero";
+import Subscription from "../../components/Subscription";
 import useActiveUnity from "../../hooks/useActiveUnity";
 
 const Home = () => {
@@ -25,6 +26,7 @@ const Home = () => {
     <>
       Landing Page
       <Hero />
+      <Subscription />
     </>
   );
 };
