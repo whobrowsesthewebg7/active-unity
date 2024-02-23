@@ -1,5 +1,5 @@
 {
-  "events": [
+  "activities": [
     {
       "id": 1,
       "title": "Visit the Skansen Open-Air Museum for a day of cultural exploration.",
@@ -10,307 +10,387 @@
       "start_time": "09:00",
       "end_time": "17:00",
       "location": "Skansen Open-Air Museum, Stockholm",
-      "poster": "path/to/poster.webp",
-      "thumbnail": "path/to/thumbnail.webp"
+      "poster": "/image/activities/visit-the-Skansen-open-air-museum-for-a-day-of-cultural-exploration.webp",
+      "thumbnail": "/image/activities/visit-the-Skansen-open-air-museum-for-a-day-of-cultural-exploration.webp"
     },
     {
       "id": 2,
       "title": "Explore Junibacken, a magical world inspired by Swedish children's literature.",
       "category_id": 1,
-      "description": "Discover the enchanting world of Junibacken, dedicated to bringing stories to life.",
+      "description": "Immerse yourself in the enchanting world of Junibacken, a magical haven inspired by timeless Swedish children's literature. Step into the pages of beloved stories by Astrid Lindgren and other iconic authors, where imagination knows no bounds. Explore whimsical exhibits, encounter beloved characters like Pippi Longstocking, and participate in interactive storytelling experiences that captivate visitors of all ages. Junibacken is a celebration of literary wonders, offering a magical escape into the heart of Swedish storytelling that promises to create cherished memories for the whole family",
       "start_date": "2024-06-20",
       "end_date": "2024-06-20",
       "start_time": "10:00",
       "end_time": "18:00",
-      "location": "Junibacken, Stockholm",
-      "poster": "path/to/poster.webp",
-      "thumbnail": "path/to/thumbnail.webp"
+      "location": "Junibacken, Galärvarvsvägen 8, 115 21 Stockholm, Sweden",
+      "poster": "/image/activities/explore-junibacken-a-magical-world-inspired-by-swedish-childrens-literature.webp",
+      "thumbnail": "/image/activities/explore-junibacken-a-magical-world-inspired-by-swedish-childrens-literature.webp"
     },
     {
       "id": 3,
       "title": "Kayak through the archipelago for a scenic and active experience.",
       "category_id": 2,
-      "description": "Paddle through the serene waters of Stockholm's archipelago and discover secluded islands.",
+      "description": "Embark on a thrilling adventure as you kayak through the stunning archipelago surrounding Stockholm. Immerse yourself in the natural beauty of the waterways, where each paddle stroke unveils breathtaking scenery and picturesque landscapes. This active experience is perfect for nature enthusiasts and adventure seekers alike. Glide through serene waters, explore hidden coves, and enjoy the tranquility of the archipelago's unique ecosystem. Whether you're a seasoned paddler or a novice, this journey promises a scenic and invigorating exploration of Stockholm's coastal wonders.",
       "start_date": "2024-07-10",
       "end_date": "2024-07-10",
       "start_time": "08:00",
       "end_time": "14:00",
       "location": "Stockholm Archipelago",
-      "poster": "path/to/poster.webp",
-      "thumbnail": "path/to/thumbnail.webp"
+      "poster": "/image/activities/kayak-through-the-archipelago-for-a-scenic-and-active-experience.webp",
+      "thumbnail": "/image/activities/kayak-through-the-archipelago-for-a-scenic-and-active-experience.webp"
     },
     {
       "id": 4,
       "title": "Take a nature hike in Djurgården and enjoy the beautiful landscapes.",
       "category_id": 2,
-      "description": "Explore the green oasis of Djurgården on foot and enjoy its peaceful scenery.",
+      "description": "Embark on a rejuvenating nature hike in Djurgården, where the beauty of the outdoors comes to life. Immerse yourself in the serenity of lush landscapes, tranquil woodlands, and scenic trails. This leisurely yet invigorating hike is an opportunity to connect with nature and witness the diverse flora and fauna that grace Djurgården. From charming meadows to peaceful lakeside vistas, every step reveals the natural wonders of this urban oasis. Whether you seek a peaceful stroll or an active exploration, Djurgården's picturesque landscapes promise a delightful escape from the bustling city.",
       "start_date": "2024-08-05",
       "end_date": "2024-08-05",
       "start_time": "09:00",
       "end_time": "15:00",
       "location": "Djurgården, Stockholm",
-      "poster": "path/to/poster.webp",
-      "thumbnail": "path/to/thumbnail.webp"
+      "poster": "/image/activities/take-a-nature-hike-in-djurgården-and-enjoy-the-beautiful-landscapes.webp",
+      "thumbnail": "/image/activities/take-a-nature-hike-in-djurgården-and-enjoy-the-beautiful-landscapes.webp"
     },
     {
       "id": 5,
       "title": "Attend a performance at the Royal Swedish Opera.",
       "category_id": 3,
-      "description": "Experience the grandeur of opera at the Royal Swedish Opera, a beacon of cultural sophistication.",
+      "description": "Immerse yourself in the world of classical arts by attending a mesmerizing performance at the renowned Royal Swedish Opera. From timeless operas to captivating ballets, this historic venue promises an evening of cultural enrichment and artistic brilliance. Witness world-class performers grace the stage, bringing to life the magic of music and dance in a setting steeped in elegance and history. The Royal Swedish Opera is not just a venue; it's an immersive experience that transports audiences to the heart of artistic excellence.",
       "start_date": "2024-09-15",
       "end_date": "2024-09-15",
       "start_time": "19:00",
       "end_time": "21:00",
       "location": "Royal Swedish Opera, Stockholm",
-      "poster": "path/to/poster.webp",
-      "thumbnail": "path/to/thumbnail.webp"
+      "poster": "/image/activities/attend-a-performance-at-the-Royal-Swedish-Opera.webp",
+      "thumbnail": "/image/activities/attend-a-performance-at-the-Royal-Swedish-Opera.webp"
     },
     {
       "id": 6,
       "title": "Explore the historic Gamla Stan (Old Town) with its charming cobblestone streets.",
       "category_id": 3,
-      "description": "Wander through the narrow streets of Gamla Stan and discover its rich history and vibrant culture.",
+      "description": "Embark on a captivating journey through history as you explore the historic Gamla Stan, Stockholm's charming Old Town. Lose yourself in the enchanting labyrinth of cobblestone streets, surrounded by well-preserved medieval architecture and vibrant squares. Immerse yourself in the rich tapestry of the past as you stroll past iconic landmarks, quaint boutiques, and cozy cafes. With its narrow alleys and centuries-old buildings, Gamla Stan offers a delightful blend of history, culture, and timeless beauty. This exploration promises a nostalgic escape to a bygone era right in the heart of modern Stockholm.",
       "start_date": "2024-10-20",
       "end_date": "2024-10-20",
       "start_time": "10:00",
       "end_time": "16:00",
       "location": "Gamla Stan, Stockholm",
-      "poster": "path/to/poster.webp",
-      "thumbnail": "path/to/thumbnail.webp"
+      "poster": "/image/activities/explore-the-historic-gamla-stan-with-its-charming-cobblestone-streets.webp",
+      "thumbnail": "/image/activities/explore-the-historic-gamla-stan-with-its-charming-cobblestone-streets.webp"
     },
     {
       "id": 7,
       "title": "Indulge in a food tour through Södermalm, sampling Swedish delicacies.",
       "category_id": 4,
-      "description": "Embark on a culinary journey through Södermalm, tasting the best of Swedish cuisine.",
+      "description": "Embark on a gastronomic adventure through the vibrant streets of Södermalm, where a delectable food tour awaits. Indulge your taste buds in an array of authentic Swedish delicacies, from savory delights to sweet treats. This culinary journey will take you through hidden gems and local eateries, providing a rich tapestry of flavors that define Swedish cuisine. From traditional dishes to modern twists, each bite tells a story of culinary heritage. Join us on this immersive food tour for an unforgettable experience that combines culture, community, and, of course, exquisite Swedish flavors.",
       "start_date": "2024-11-05",
       "end_date": "2024-11-05",
       "start_time": "11:00",
       "end_time": "14:00",
       "location": "Södermalm, Stockholm",
-      "poster": "path/to/poster.webp",
-      "thumbnail": "path/to/thumbnail.webp"
+      "poster": "/image/activities/indulge-in-a-food-tour-through-Södermalm-sampling-swedish-delicacies.webp",
+      "thumbnail": "/image/activities/indulge-in-a-food-tour-through-Södermalm-sampling-swedish-delicacies.webp"
     },
     {
       "id": 8,
       "title": "Experience the culinary scene at Östermalm Market Hall.",
       "category_id": 4,
-      "description": "Discover the rich flavors and fresh ingredients at Östermalm's historic market hall.",
+      "description": "Immerse yourself in a gastronomic paradise at Östermalm Market Hall. This culinary haven invites you to explore a diverse array of fresh produce, gourmet delights, and local specialties. From artisanal cheeses to succulent seafood, each vendor tells a unique culinary story. Join us in savoring the flavors of Stockholm's rich food culture.",
       "start_date": "2024-12-10",
       "end_date": "2024-12-10",
       "start_time": "12:00",
       "end_time": "15:00",
       "location": "Östermalm Market Hall, Stockholm",
-      "poster": "path/to/poster.webp",
-      "thumbnail": "path/to/thumbnail.webp"
+      "poster": "/image/activities/experience-the-culinary-scene-at-Östermalm-Market-Hall.webp",
+      "thumbnail": "/image/activities/experience-the-culinary-scene-at-Östermalm-Market-Hall.webp"
     },
     {
       "id": 9,
       "title": "Wander through the modern art exhibits at the Moderna Museet.",
       "category_id": 5,
-      "description": "Explore contemporary and modern art in a vibrant setting at the Moderna Museet.",
+      "description": "Step into the world of contemporary art at the Moderna Museet. This museum showcases a captivating collection of modern and contemporary masterpieces, inviting you to wander through thought-provoking exhibits and experience the cutting edge of artistic expression.",
       "start_date": "2024-01-20",
       "end_date": "2024-01-20",
       "start_time": "10:00",
       "end_time": "17:00",
       "location": "Moderna Museet, Stockholm",
-      "poster": "path/to/poster.webp",
-      "thumbnail": "path/to/thumbnail.webp"
+      "poster": "/image/activities/wander-through-the-modern-art-exhibits-at-the-moderna-museet.webp",
+      "thumbnail": "/image/activities/wander-through-the-modern-art-exhibits-at-the-moderna-museet.webp"
     },
     {
       "id": 10,
       "title": "Visit the Vasa Museum to see the remarkably preserved 17th-century warship.",
       "category_id": 5,
-      "description": "Discover the maritime history of Sweden through the Vasa, the world's best-preserved 17th-century ship.",
+      "description": "Witness history come to life at the Vasa Museum, home to the astonishingly well-preserved 17th-century warship. Explore the intricacies of this maritime marvel and unravel the tales of its ill-fated maiden voyage. An immersive journey into Sweden's naval history awaits.",
       "start_date": "2024-02-15",
       "end_date": "2024-02-15",
       "start_time": "09:00",
       "end_time": "18:00",
       "location": "Vasa Museum, Stockholm",
-      "poster": "path/to/poster.webp",
-      "thumbnail": "path/to/thumbnail.webp"
+      "poster": "/image/activities/visit-the-vasa-museum-to-see-the-remarkably-preserved-17th-century-warship.webp",
+      "thumbnail": "/image/activities/visit-the-vasa-museum-to-see-the-remarkably-preserved-17th-century-warship.webp"
     },
     {
       "id": 11,
       "title": "Enjoy thrill rides at Gröna Lund amusement park.",
       "category_id": 6,
-      "description": "Experience the excitement of Gröna Lund, Stockholm's premier amusement park, with roller coasters and games for all ages.",
+      "description": "Brace yourself for an adrenaline-pumping experience at Gröna Lund amusement park. From heart-stopping roller coasters to whimsical attractions, this iconic park promises a day of excitement and laughter. Join us for a memorable journey through the thrills and delights of Gröna Lund.",
       "start_date": "2024-05-01",
       "end_date": "2024-05-01",
       "start_time": "11:00",
       "end_time": "20:00",
       "location": "Gröna Lund, Stockholm",
-      "poster": "path/to/poster.webp",
-      "thumbnail": "path/to/thumbnail.webp"
+      "poster": "/image/activities/enjoy-thrill-rides-at-Gröna-Lund-amusement-park.webp",
+      "thumbnail": "/image/activities/enjoy-thrill-rides-at-Gröna-Lund-amusement-park.webp"
     },
     {
       "id": 12,
       "title": "Attend a concert or event at the Tele2 Arena.",
       "category_id": 6,
-      "description": "Catch a live performance or sporting event at the Tele2 Arena, one of Stockholm's largest venues.",
+      "description": "Immerse yourself in a world of entertainment at the Tele2 Arena. From chart-topping concerts to thrilling events, this state-of-the-art venue hosts a myriad of experiences. Join us for a night of unforgettable performances and create lasting memories.",
       "start_date": "2024-06-15",
       "end_date": "2024-06-15",
       "start_time": "18:00",
       "end_time": "22:00",
       "location": "Tele2 Arena, Stockholm",
-      "poster": "path/to/poster.webp",
-      "thumbnail": "path/to/thumbnail.webp"
+      "poster": "/image/activities/attend a concert-or-event-at-the-tele2-arena.webp",
+      "thumbnail": "/image/activities/attend a concert-or-event-at-the-tele2-arena.webp"
     },
     {
       "id": 13,
       "title": "Take a leisurely boat tour of Stockholm's waterways.",
       "category_id": 7,
-      "description": "Explore Stockholm from its waterways on a relaxing boat tour, offering unique views of the city.",
+      "description": "Embark on a tranquil journey through Stockholm's picturesque waterways. A leisurely boat tour awaits, offering panoramic views of the city's iconic landmarks and scenic landscapes. Relax, unwind, and let the beauty of Stockholm unfold before your eyes.",
       "start_date": "2024-07-10",
       "end_date": "2024-07-10",
       "start_time": "10:00",
       "end_time": "12:00",
       "location": "Stockholm Waterways",
-      "poster": "path/to/poster.webp",
-      "thumbnail": "path/to/thumbnail.webp"
+      "poster": "/image/activities/take-a-leisurely-boat-tour-of-Stockholms-waterways.webp",
+      "thumbnail": "/image/activities/take-a-leisurely-boat-tour-of-Stockholms-waterways.webp"
     },
     {
       "id": 14,
       "title": "Unwind at one of Stockholm's renowned spas.",
       "category_id": 7,
-      "description": "Take a day to relax and rejuvenate at one of Stockholm's top-rated spas, offering a variety of treatments.",
+      "description": "Indulge in a world of relaxation at one of Stockholm's acclaimed spas. Pamper yourself with rejuvenating treatments, soothing massages, and luxurious wellness experiences. Escape the hustle and bustle as you enter a realm of serenity and self-care.",
       "start_date": "2024-08-20",
       "end_date": "2024-08-20",
       "start_time": "09:00",
       "end_time": "18:00",
       "location": "Stockholm Spa",
-      "poster": "path/to/poster.webp",
-      "thumbnail": "path/to/thumbnail.webp"
+      "poster": "/image/activities/unwind-at-one-of-stockholms-renowned-spas.webp",
+      "thumbnail": "/image/activities/unwind-at-one-of-stockholms-renowned-spas.webp"
     },
     {
       "id": 15,
       "title": "Attend a soccer match at Friends Arena.",
       "category_id": 8,
-      "description": "Feel the excitement of a live soccer match at Friends Arena, home to thrilling sports action.",
+      "description": "Immerse yourself in the electrifying atmosphere of a soccer match at Friends Arena. Join passionate fans, witness top-notch athleticism, and cheer for your favorite team in this iconic stadium. A thrilling soccer experience awaits.",
       "start_date": "2024-09-05",
       "end_date": "2024-09-05",
       "start_time": "15:00",
       "end_time": "17:00",
       "location": "Friends Arena, Stockholm",
-      "poster": "path/to/poster.webp",
-      "thumbnail": "path/to/thumbnail.webp"
+      "poster": "/image/activities/attend-a-soccer-match-at-Friends-Arena.webp",
+      "thumbnail": "/image/activities/attend-a-soccer-match-at-Friends-Arena.webp"
     },
     {
       "id": 16,
       "title": "Rent a bike and explore the city's bike-friendly paths.",
       "category_id": 8,
-      "description": "Discover Stockholm at your own pace by renting a bike and navigating its extensive network of bike paths.",
+      "description": "Discover the charm of Stockholm on two wheels. Rent a bike and explore the city's bike-friendly paths, weaving through parks, along waterfronts, and historic neighborhoods. This active exploration promises a scenic and invigorating way to experience the beauty of Stockholm.",
       "start_date": "2024-10-10",
       "end_date": "2024-10-10",
       "start_time": "10:00",
       "end_time": "16:00",
       "location": "Stockholm",
-      "poster": "path/to/poster.webp",
-      "thumbnail": "path/to/thumbnail.webp"
+      "poster": "/image/activities/rent-a-bike-and-explore-the-citys-bike-friendly-paths.webp",
+      "thumbnail": "/image/activities/rent-a-bike-and-explore-the-citys-bike-friendly-paths.webp"
     },
     {
       "id": 17,
       "title": "Discover Stockholm's vibrant nightlife in trendy neighborhoods like Södermalm.",
       "category_id": 9,
-      "description": "Experience the pulse of Stockholm's nightlife with a tour through its most lively and trendy districts.",
+      "description": "Immerse yourself in Stockholm's vibrant nightlife, with Södermalm as your playground. From trendy bars to chic lounges, this hip neighborhood comes alive after dark. Join the nocturnal adventure and discover the eclectic energy of Södermalm at night.",
       "start_date": "2024-11-15",
       "end_date": "2024-11-15",
       "start_time": "20:00",
       "end_time": "02:00",
       "location": "Södermalm, Stockholm",
-      "poster": "path/to/poster.webp",
-      "thumbnail": "path/to/thumbnail.webp"
+      "poster": "/image/activities/discover-stockholms-vibrant-nightlife-in-trendy-neighborhoods-like-Södermalm.webp",
+      "thumbnail": "/image/activities/discover-stockholms-vibrant-nightlife-in-trendy-neighborhoods-like-Södermalm.webp"
     },
     {
       "id": 18,
       "title": "Attend a live music performance or dance the night away in a stylish club.",
       "category_id": 9,
-      "description": "Let loose and enjoy an evening of live music or DJ sets in one of Stockholm's fashionable nightclubs.",
+      "description": "Experience the heartbeat of Stockholm's nightlife with live music performances and stylish club vibes. Whether you're a music enthusiast or a dance aficionado, this evening promises an unforgettable fusion of melodies and rhythms in the city's most vibrant venues.",
       "start_date": "2024-12-05",
       "end_date": "2024-12-05",
       "start_time": "21:00",
       "end_time": "03:00",
       "location": "Stockholm Nightclub",
-      "poster": "path/to/poster.webp",
-      "thumbnail": "path/to/thumbnail.webp"
+      "poster": "/image/activities/attend-a-live-music-performance-or-dance-the-night-away-in-a-stylish-club.webp",
+      "thumbnail": "/image/activities/attend-a-live-music-performance-or-dance-the-night-away-in-a-stylish-club.webp"
     },
     {
       "id": 19,
       "title": "Visit the ABBA Museum for a musical journey through Swedish pop history.",
       "category_id": 10,
-      "description": "Explore the legacy of ABBA and the history of Swedish pop music at the ABBA Museum.",
+      "description": "Step into the world of Swedish pop history at the ABBA Museum. This immersive experience invites you on a musical journey through the iconic band's legacy. From interactive exhibits to memorabilia, relive the magic of ABBA's timeless hits in this vibrant tribute.",
       "start_date": "2025-01-20",
       "end_date": "2025-01-20",
       "start_time": "10:00",
       "end_time": "17:00",
       "location": "ABBA Museum, Stockholm",
-      "poster": "path/to/poster.webp",
-      "thumbnail": "path/to/thumbnail.webp"
+      "poster": "/image/activities/visit-the-abba-museum-for-a-musical-journey-through-swedish-pop-history.webp",
+      "thumbnail": "/image/activities/visit-the-abba-museum-for-a-musical-journey-through-swedish-pop-history.webp"
     },
     {
       "id": 20,
       "title": "Explore the Nordic Museum to learn about Swedish cultural heritage.",
       "category_id": 10,
-      "description": "Dive into the rich tapestry of Swedish culture and history at the Nordic Museum, featuring extensive exhibits.",
+      "description": "Uncover the layers of Swedish cultural heritage at the Nordic Museum. This institution offers a comprehensive exploration of Sweden's history, traditions, and way of life. From exhibits on folk art to displays of everyday life, immerse yourself in the rich tapestry of Swedish heritage.",
       "start_date": "2025-02-15",
       "end_date": "2025-02-15",
       "start_time": "09:00",
       "end_time": "18:00",
       "location": "Nordic Museum, Stockholm",
-      "poster": "path/to/poster.webp",
-      "thumbnail": "path/to/thumbnail.webp"
+      "poster": "/image/activities/explore-the-nordic-museum-to-learn-about-swedish-cultural-heritage.webp",
+      "thumbnail": "/image/activities/explore-the-nordic-museum-to-learn-about-swedish-cultural-heritage.webp"
     }
   ],
   "categories": [
     {
       "id": 1,
       "name": "Family-Friendly Adventures",
-      "thumbnail": ""
+      "thumbnail": "/image/icons/icon-family-friendly-adventures.webp"
     },
     {
       "id": 2,
       "name": "Outdoor Escapes",
-      "thumbnail": ""
+      "thumbnail": "/image/icons/icon-outdoor-escapes.webp"
     },
     {
       "id": 3,
       "name": "Cultural Delights",
-      "thumbnail": ""
+      "thumbnail": "/image/icons/icon-cultural-delights.webp"
     },
     {
       "id": 4,
       "name": "Food Tours",
-      "thumbnail": ""
+      "thumbnail": "/image/icons/icon-food-tours.webp"
     },
     {
       "id": 5,
       "name": "Art and Museums",
-      "thumbnail": ""
+      "thumbnail": "/image/icons/icon-art-and-museums.webp"
     },
     {
       "id": 6,
       "name": "Entertainment for Teens",
-      "thumbnail": ""
+      "thumbnail": "/image/icons/icon-entertainment-for-teens.webp"
     },
     {
       "id": 7,
       "name": "Relaxation Activities",
-      "thumbnail": ""
+      "thumbnail": "/image/icons/icon-relaxation-activities.webp"
     },
     {
       "id": 8,
       "name": "Sports and Recreation",
-      "thumbnail": ""
+      "thumbnail": "/image/icons/icon-sports-and-recreation.webp"
     },
     {
       "id": 9,
       "name": "Nightlife Experiences",
-      "thumbnail": ""
+      "thumbnail": "/image/icons/icon-nightlife-experiences.webp"
     },
     {
       "id": 10,
       "name": "Educational Experiences",
-      "thumbnail": ""
+      "thumbnail": "/image/icons/icon-educational-experiences.webp"
+    }
+  ],
+  "events": [
+    {
+      "id": 1,
+      "title": "Jason Derulo: Nu King Tour",
+      "type": "MUSIC",
+      "description": "With innovation, genre-crossing music and creativity, Jason Derulo has established himself as one of the most dynamic forces on the global pop scene. Since the start of his solo career, he has generated over 18 billion streams and built a huge fan base worldwide.",
+      "start_date": "2024-02-22",
+      "end_date": "2024-02-22",
+      "start_time": "19:30",
+      "end_time": "22:30",
+      "location": "Arenatorget 1, 121 77 Johanneshov",
+      "poster": "/image/events/event-jason-derulo-nu-king-tour.webp",
+      "thumbnail": "/image/events/event-jason-derulo-nu-king-tour.webp"
+    },
+    {
+      "id": 2,
+      "title": "The Spring Salon 2024 at Liljevalchs",
+      "type": "EXHIBITIONS",
+      "description": "The spring salon at Liljevalchs is a dear, contentious and lively tradition since its inception in 1921. The spring salon is a jury-judged exhibition. All works are for sale and the price is set by the participants themselves.",
+      "start_date": "2024-02-22",
+      "end_date": "2024-04-07",
+      "start_time": "11:00",
+      "end_time": "20:00",
+      "location": "Djurgårdsvägen 60, 115 21 Stockholm",
+      "poster": "/image/events/event-the-spring-salon-2024-at-liljevalchs.webp",
+      "thumbnail": "/image/events/event-the-spring-salon-2024-at-liljevalchs.webp"
+    },
+    {
+      "id": 3,
+      "title": "The Soundtrack of Our Lives",
+      "type": "MUSIC",
+      "description": "When The Soundtrack of Our Lives was reunited this summer for three festival gigs – as well as a warm-up night at Pustervik and a discharge at Garaget in Hammenhög – the response was overwhelming. From opening 'Mantra Slider' to closing 'The Passover' and in between a treasure of songs few can match, the concerts developed into a triumphant tour that deserves to be seen by more.",
+      "start_date": "2024-02-22",
+      "end_date": "2024-02-22",
+      "start_time": "20:00",
+      "end_time": "22:30",
+      "location": "Djurgårdsslätten 43-45, 115 21 Stockholm",
+      "poster": "/image/events/event-the-soundtrack-of-our-lives.webp",
+      "thumbnail": "/image/events/event-the-soundtrack-of-our-lives.webp"
+    },
+    {
+      "id": 4,
+      "title": "The Tech Arena",
+      "type": "SCIENCE & TECH",
+      "description": "During two days, The Tech Arena will bring together thousands of business leaders, entrepreneurs, investors, and decision-makers in an immersive and diverse setting for networking, knowledge sharing, and engaging in discussions spanning key areas such as innovation, entrepreneurship, sustainability, technology, and global megatrends. The list of speakers includes Apple's co-founder Steve Wozniak, NASA astronaut and marine biologist Jessica Meir, former US vice-president Al Gore, and professor of AI at Columbia University Amit Arora.",
+      "start_date": "2024-02-22",
+      "end_date": "2024-02-23",
+      "start_time": "08:00",
+      "end_time": "18:00",
+      "location": "Råsta Strandväg 1, 169 56 Solna",
+      "poster": "/image/events/event-the-tech-arena.webp",
+      "thumbnail": "/image/events/event-the-tech-arena.webp"
+    },
+    {
+      "id": 5,
+      "title": "Nordic Life",
+      "type": "EXHIBITIONS",
+      "description": "Explore life and people in the Nordic region over 500 years, set against its stunning nature, changing seasons and real-life stories from the Nordiska museet collections and archives. The museum’s largest ever exhibition initiative presents 4,000 artefacts and images in an epic and visual presentation of Nordic cultural history built on the real objects and stories collected by the museum during 150 years.",
+      "start_date": "2024-02-22",
+      "end_date": "2026-12-31",
+      "start_time": "10:00",
+      "end_time": "17:00",
+      "location": "Djurgårdsvägen 60, 115 21 Stockholm",
+      "poster": "/image/events/event-nordic-life.webp",
+      "thumbnail": "/image/events/event-nordic-life.webp"
+    },
+    {
+      "id": 6,
+      "title": "Biathlon: Skidskyttekampen",
+      "type": "SPORTS & WELLBEING",
+      "description": "Skidskyttekampen is a unique biathlon event, where some of the world's top athletes. The competition is a mixed relay, with the track and shooting range on the Stockholm Olympic Stadium.",
+      "start_date": "2024-02-26",
+      "end_date": "2024-02-26",
+      "start_time": "16:00",
+      "end_time": "19:30",
+      "location": "Lidingövägen",
+      "poster": "/image/events/event-biathlon-skidskyttekampen.webp",
+      "thumbnail": "/image/events/event-biathlon-skidskyttekampen.webp"
     }
   ],
   "testimonials": [

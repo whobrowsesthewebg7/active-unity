@@ -14,12 +14,18 @@ const Home = () => {
   } = useActiveUnity();
 
   useEffect(() => {
-    const events = getFeaturedActivities();
+    const featuredActivities = getFeaturedActivities();
     const upcomingEvents = getUpcomingEvents(3);
     const categories = getCategories();
     const testimonials = getTestimonials();
     const event = getEventByID(3);
-    console.log({ events, upcomingEvents, categories, testimonials, event });
+    console.log({
+      featuredActivities,
+      upcomingEvents,
+      categories,
+      testimonials,
+      event,
+    });
   }, []);
 
   return (
