@@ -22,8 +22,8 @@
 
 .input {
   @apply border-transparent focus:border-slate-800 block rounded-full py-4 px-5 text-sm
-     bg-gray-300 outline-none focus:bg-gray-200 text-slate-800 placeholder:text-gray-500
-    transition-colors mb-6 w-full
+     bg-white outline-none focus:bg-gray-200 text-slate-800 placeholder:text-gray-500
+    transition-colors mb-6 w-full border-zinc-800 border
     md:text-lg md:mb-5
     lg:mr-4
 }

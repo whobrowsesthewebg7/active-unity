@@ -28,7 +28,7 @@ const Popup = ({ closePopup }) => {
     <div className={styles.parent} id="parent" onClick={handleOnClose}>
       <div className={styles.container}>
         <CiCircleRemove className={styles.closeButton} onClick={closePopup} aria-label="Close popup" />
-        <p3 className={styles.title}>Subscribe to our events</p3>
+        <p3 className={styles.title}>Sign up for our newsletter</p3>
         <form className={styles.form} onSubmit={handleSubmit(onSubmit)}>
           <input
             className={styles.input}

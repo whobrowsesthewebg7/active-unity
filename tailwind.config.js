@@ -5,6 +5,7 @@ export default {
     extend: {
       inset: {
         '720px': '720px',
+        '520px': '520px'
       },
       transitionTimingFunction: {
         DEFAULT: 'ease-in-out',
