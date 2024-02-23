@@ -3,7 +3,7 @@ import take from "lodash/fp/take";
 
 import { createContext } from "react";
 
-import { events, categories, testimonials } from "../../assets/mock.json";
+import { activities, categories, testimonials } from "../../assets/mock.json";
 
 const getCategoriesMap = () => {
   const categoriesMap = categories.reduce((map, category) => {
@@ -73,7 +73,7 @@ export const ActiveUnityProvider = ({ children }) => {
    * @returns {Array} - array of events
    */
   const getFeaturedActivities = (takeNEvents = 5) => {
-    const groupedEvents = groupBy("category_id")(events);
+    const groupedEvents = groupBy("category_id")(activities);
     const latestEvents =
       getTheLatestEventsOfCategoryGroupedEvents(groupedEvents);
 
@@ -92,7 +92,7 @@ export const ActiveUnityProvider = ({ children }) => {
     const today = new Date();
     today.setHours(0, 0, 0, 0);
 
-    const closestEvents = events
+    const closestEvents = activities
       .map((event) => ({ ...event, date: toEventDate(event) }))
       .filter((event) => event.date > today)
       .sort((a, b) => a.date - b.date);
@@ -109,7 +109,7 @@ export const ActiveUnityProvider = ({ children }) => {
    * @returns {Event|undefined} returns a single event or undefined if no found with that `id`
    */
   const getEventByID = (id) => {
-    const event = events.find((event) => event.id === Number(id));
+    const event = activities.find((event) => event.id === Number(id));
     if (!event) return undefined;
 
     // sorry for this ugly approach, I don't want change `combineEventsWithCategoryName`
