@@ -3,6 +3,7 @@ import { useEffect } from "react";
 import Hero from "../../components/Hero";
 import Subscription from "../../components/Subscription";
 import useActiveUnity from "../../hooks/useActiveUnity";
+import FeaturedActivities from "../../components/FeaturedActivities";
 
 const Home = () => {
   const {
@@ -30,8 +31,8 @@ const Home = () => {
 
   return (
     <>
-      Landing Page
       <Hero />
+      <FeaturedActivities />
       <Subscription />
     </>
   );

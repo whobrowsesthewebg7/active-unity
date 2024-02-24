@@ -1,0 +1,19 @@
+.activity {
+  @apply relative
+}
+
+.activity__image {
+  @apply w-full h-full
+}
+
+.activity__image:hover {
+  @apply scale-110 overflow-hidden
+}
+
+.activity__mask {
+  @apply absolute w-full h-auto bottom-0 left-0 flex flex-col bg-zinc-800 text-white
+}
+
+.activity__mask h4, .activity__mask h5 {
+  @apply pl-1 pr-1 whitespace-nowrap overflow-hidden text-ellipsis
+}
