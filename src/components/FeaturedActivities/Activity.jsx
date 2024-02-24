@@ -3,8 +3,7 @@ import classes from "./Activity.module.css";
 import { BASENAME } from "../../constant";
 
 const Activity = ({ activity, posterView = false }) => {
-  const { id, title, category, poster, thumbnail } = activity;
-  console.log({ id, title, category, poster, thumbnail });
+  const { title, category, poster, thumbnail } = activity;
   return (
     <div className={classes.activity}>
       <img
