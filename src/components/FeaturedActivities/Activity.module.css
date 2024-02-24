@@ -3,7 +3,7 @@
 }
 
 .activity__image {
-  @apply w-full h-full duration-200 ease-linear;
+  @apply w-full h-full object-cover duration-200 ease-linear;
 }
 
 .activity:hover .activity__image {
