@@ -16,18 +16,21 @@ const Subscription = () => {
 
   return (
     <div className={styles.container}>
-      
-        <img
-          className={styles.image}
-          src={`${BASENAME}/images/activities/attend-a-live-music-performance-or-dance-the-night-away-in-a-stylish-club.webp`}
-          ></img>
-          <section className={styles.content}>
+      <img
+        className={styles.image}
+        src={`${BASENAME}/images/signup-bg.webp`}
+      ></img>
+      <section className={styles.content}>
         <h2 className={styles.title}>Sign up for our newsletter</h2>
         <p className={styles.paragraph}>
           Stay up to date with the roadmap progress, announcements and exclusive
           discounts feel free to sign up with your email!
         </p>
-        <button className={styles.button} onClick={openPopup} aria-label="Open popup">
+        <button
+          className={styles.button}
+          onClick={openPopup}
+          aria-label="Open popup"
+        >
           Subscribe
         </button>
       </section>
