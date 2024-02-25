@@ -5,6 +5,7 @@ import {
   IoIosArrowDropleftCircle,
   IoIosArrowDroprightCircle,
 } from "react-icons/io";
+import { BASENAME } from "../../constant";
 
 const Categories = () => {
   const { getCategories } = useActiveUnity();
@@ -54,7 +55,7 @@ const Categories = () => {
                 <div className=" w-24 h-24">
                   <img
                     className=" w-full h-full object-cover"
-                    src={category.thumbnail}
+                    src={`${BASENAME}${category.thumbnail}`}
                     alt={category.name}
                   />
                 </div>
