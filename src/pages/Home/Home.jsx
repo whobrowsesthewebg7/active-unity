@@ -4,6 +4,7 @@ import Hero from "../../components/Hero";
 import Subscription from "../../components/Subscription";
 import useActiveUnity from "../../hooks/useActiveUnity";
 import FeaturedActivities from "../../components/FeaturedActivities";
+import Categories from "../../components/Categories";
 
 const Home = () => {
   const {
@@ -33,6 +34,7 @@ const Home = () => {
     <>
       <Hero />
       <FeaturedActivities />
+      <Categories />
       <Subscription />
     </>
   );
