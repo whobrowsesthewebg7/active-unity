@@ -121,7 +121,10 @@ export const ActiveUnityProvider = ({ children }) => {
    * get the categories
    * @returns {Array} list of categories
    */
-  const getCategories = () => categories;
+  const getCategories = () => {
+    const categoriesMap = getCategoriesMap();
+    return Object.values(categoriesMap);
+  };
 
   /**
    * get the testimonials
