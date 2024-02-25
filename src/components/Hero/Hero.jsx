@@ -25,14 +25,18 @@ const Hero = () => {
         Your browser does not support the video tag.
       </video>
       <section className={styles.content}>
-        <h2 className={styles.subtitle}>Embrace Fun:</h2>
+        <h1 className={styles.subtitle}>Embrace Fun:</h1>
         <h1 className={styles.title}>Your Guide to Stockholm Activities</h1>
         <p className={styles.paragraph}>
           Explore Stockholm's vibrant activities with us! Your go-to guide for
           fun-filled adventures, cultural delights, and memorable experiences
           awaits. Embrace the joy of the city!
         </p>
-        <button className={styles.button} onClick={openPopup} aria-label="Open popup">
+        <button
+          className={styles.button}
+          onClick={openPopup}
+          aria-label="Open popup"
+        >
           Subscribe
         </button>
       </section>

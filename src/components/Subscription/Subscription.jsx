@@ -19,6 +19,7 @@ const Subscription = () => {
       <img
         className={styles.image}
         src={`${BASENAME}/images/signup-bg.webp`}
+        alt="Subscribe background image"
       ></img>
       <section className={styles.content}>
         <h2 className={styles.title}>Sign up for our newsletter</h2>
