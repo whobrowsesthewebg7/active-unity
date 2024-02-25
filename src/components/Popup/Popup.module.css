@@ -28,10 +28,20 @@
     lg:mr-4
 }
 
+.inputBold {
+  @apply border-2 border-zinc-500
+}
+
 .confirmButton {
   @apply text-lg h-12 w-full rounded-full bg-rose-600 m-auto cursor-pointer hover:bg-rose-700
   transition-colors text-white
   lg:m-0 lg:h-14 lg:w-60
+}
+
+.copyButton {
+  @apply text-lg h-12 w-full rounded-full bg-none m-auto cursor-pointer hover:bg-zinc-800 hover:text-white
+  transition-colors text-zinc-800 border-zinc-800 border-2
+  lg:m-0 lg:h-16 lg:w-60
 }
 
 .closeButton {
