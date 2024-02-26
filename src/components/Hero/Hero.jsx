@@ -18,7 +18,6 @@ const Hero = () => {
     <div className={styles.parent}>
       <video className={styles.video} autoPlay muted loop>
         <source
-          // src={`${BASENAME}/video/welcome_to_stockholm.mp4`}
           src={`${BASENAME}/video/welcome_to_stockholm.webm`}
           type="video/mp4"
         />
@@ -28,9 +27,9 @@ const Hero = () => {
         <h1 className={styles.subtitle}>Embrace Fun:</h1>
         <h1 className={styles.title}>Your Guide to Stockholm Activities</h1>
         <p className={styles.paragraph}>
-          Explore Stockholm's vibrant activities with us! Your go-to guide for
+          {`Explore Stockholm's vibrant activities with us! Your go-to guide for
           fun-filled adventures, cultural delights, and memorable experiences
-          awaits. Embrace the joy of the city!
+          awaits. Embrace the joy of the city!`}
         </p>
         <button
           className={styles.button}
