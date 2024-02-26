@@ -1,0 +1,7 @@
+.parent {
+    @apply fixed w-full bg-zinc-800 z-10 rounded-b-xl
+}
+
+.image {
+    @apply w-64
+}
