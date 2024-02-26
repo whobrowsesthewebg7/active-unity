@@ -17,7 +17,7 @@ const FeaturedActivities = () => {
           return (
             <Link
               key={id}
-              to={`./event/${id}`}
+              to={`./activity/${id}`}
               className={style.featured_activities__event}
             >
               <Activity
