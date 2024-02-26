@@ -22,15 +22,19 @@ const Testemonials = () => {
     };
   }, []);
 
-  
+  function getRandomNumber() {
+    return Math.floor(Math.random() * 5); // Generates a random integer between 0 and 4
+  }
+  const randomnumber = getRandomNumber();
+
   const renderTestemonialCards = () => {
     if (isMobileView) {
       return (
         <TestemonialCard
-          name={testemonialFromDB[0].name}
-          image={testemonialFromDB[0].image}
-          date={testemonialFromDB[0].date}
-          statement={testemonialFromDB[0].statement}
+          name={testemonialFromDB[randomnumber].name}
+          image={testemonialFromDB[randomnumber].image}
+          date={testemonialFromDB[randomnumber].date}
+          statement={testemonialFromDB[randomnumber].statement}
         />
       );
     } else {
