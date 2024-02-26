@@ -5,6 +5,7 @@ import { BASENAME } from "./constant";
 import Layout from "./components/Layout";
 import Home from "./pages/Home";
 import Activity from "./pages/Activity";
+import Event from "./pages/Event"
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
           <Route path="/" element={<Layout />}>
             <Route index element={<Home />} />
             <Route path="/activity/:id" element={<Activity />} />
+            <Route path="/event/:id" element={<Event />} />
           </Route>
         </Routes>
       </BrowserRouter>
