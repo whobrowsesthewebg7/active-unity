@@ -16,7 +16,7 @@ const Hero = () => {
 
   return (
     <div className={styles.parent}>
-      <video className={styles.video} autoPlay muted loop>
+      <video className={styles.video} autoPlay muted loop disableRemotePlayback>
         <source
           src={`${BASENAME}/video/welcome_to_stockholm.webm`}
           type="video/mp4"
