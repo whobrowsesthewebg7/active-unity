@@ -9,12 +9,12 @@
      xl:gap-10
 }
 
-.image_container {
-    @apply w-full h-full flex justify-center items-center
+.image {
+    @apply w-full
 }
 
 .info {
-    @apply flex flex-col justify-center
+    @apply flex flex-col
 }
 
 .date {

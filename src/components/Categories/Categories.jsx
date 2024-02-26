@@ -29,7 +29,7 @@ const Categories = () => {
   };
 
   return (
-    <section className={"flex flex-col justify-center items-center pb-16"}>
+    <section className={"flex flex-col justify-center items-center py-16"}>
       <h2 className=" text-3xl font-bold mb-5">Categories</h2>
       <div
         className="w-[90vw] md:w-3/4 bg-white"
@@ -56,7 +56,7 @@ const Categories = () => {
                   <img
                     className=" w-full h-full object-cover"
                     src={`${BASENAME}${category.thumbnail}`}
-                    alt={category.name}
+                    alt={`Icon of ${category.name}`}
                   />
                 </div>
                 <p className=" text-sm font-medium">{category.name}</p>

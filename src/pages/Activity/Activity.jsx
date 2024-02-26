@@ -1,15 +1,15 @@
 import { useEffect, useState } from "react";
 import { useParams, useLocation } from "react-router-dom";
 import moment from "moment";
-import styles from "./Event.module.css";
+import styles from "./Activity.module.css";
 import useActiveUnity from "../../hooks/useActiveUnity";
 import { BASENAME } from "../../constant";
 import { IoShareSocial } from "react-icons/io5";
 import { TbPointFilled } from "react-icons/tb";
 import PopupLink from "../../components/Popup/PopupLink";
 
-const Event = () => {
-  const { getEventByID } = useActiveUnity();
+const Activity = () => {
+  const { getActivityByID: getEventByID } = useActiveUnity();
   const [event, setEvent] = useState([]);
   const [buttonSaveName, setButtonSaveName] = useState("Save");
   const [isLinkPopupOpen, setIsLinkPopupOpen] = useState(false);
@@ -41,16 +41,14 @@ const Event = () => {
   return (
     <div className={styles.parent}>
       <div className={styles.container}>
-        <div className={styles.image_container}>
-          <img
-            className={styles.image}
-            alt="event image"
-            src={`${BASENAME}${event.poster}`}
-          ></img>
-        </div>
+        <img
+          className={styles.image}
+          alt="event image"
+          src={`${BASENAME}${event.poster}`}
+        ></img>
         <section className={styles.info}>
           <div className={styles.date}>
-            <p>{moment(event.start_date).format("DD MMM")}</p>
+            <p>{moment(event.start_date).format("DD MMMM")}</p>
             <TbPointFilled className={styles.iconPoint} />
             <p>{event.start_time}</p>
             <p>-</p>
@@ -82,4 +80,4 @@ const Event = () => {
   );
 };
 
-export default Event;
+export default Activity;

@@ -1,0 +1,15 @@
+.event {
+  @apply h-96 w-52 relative;
+}
+
+.event__image {
+  @apply w-full h-full object-cover rounded-lg;
+}
+
+.event__mask {
+  @apply absolute w-full h-full top-0 left-0 flex justify-center items-end pb-6 text-white opacity-0 bg-zinc-800 p-2 text-center hover:opacity-80 duration-300;
+}
+
+.event__date {
+    @apply absolute text-zinc-800 bg-white p-2 z-10 font-thin text-sm rounded-tl-lg rounded-br-lg;
+}

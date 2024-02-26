@@ -1,7 +1,7 @@
 .parent {
-    @apply fixed w-full bg-zinc-800 z-10 rounded-b-xl
+    @apply w-full pl-[5vw] pr-[5vw] md:pl-[10vw] md:pr-[10vw] pt-5 pb-5 bg-zinc-800 z-50;
 }
 
-.image {
-    @apply w-64
+.logo {
+    @apply w-64 fill-white;
 }
