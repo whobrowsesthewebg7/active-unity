@@ -395,32 +395,37 @@
   ],
   "testimonials": [
     {
-      "name": "Alex John",
-      "image": "path/to/image",
+      "id": 1,
+      "name": "Daniel Pettersson",
+      "image": "/images/testimonials/daniel-pettersson.webp",
       "date": "2024-02-18",
       "statement": "Our Stockholm trip was a breeze thanks to this site! From family-friendly museums to teen-approved activities, it had it all. Easy to navigate and packed with useful tips. Highly recommended!"
     },
     {
-      "name": "Sofia Larsson",
-      "image": "path/to/image",
+      "id": 2,
+      "name": "Hassen Ahmed",
+      "image": "/images/testimonials/hassen-ahmed.webp",
       "date": "2024-03-22",
       "statement": "I was amazed by the variety of experiences we discovered through this platform. The recommendations for cultural delights and outdoor escapes were spot on. A must-use for anyone visiting Stockholm!"
     },
     {
-      "name": "Erik Svensson",
-      "image": "path/to/image",
+      "id": 3,
+      "name": "Jinjing Wu",
+      "image": "/images/testimonials/jinjing-wu.webp",
       "date": "2024-04-05",
       "statement": "The food tour suggestions were incredible! We tasted some of the best Swedish delicacies and found new favorite spots in the city. This guide made our culinary adventure unforgettable."
     },
     {
-      "name": "Mia Johansson",
-      "image": "path/to/image",
+      "id": 4,
+      "name": "Kseniia Tikhonova",
+      "image": "/images/testimonials/kseniia-tikhonova.webp",
       "date": "2024-05-15",
       "statement": "Finding activities for the whole family was so easy with this guide. The kids loved the entertainment options, and we adults enjoyed the relaxation activities. Stockholm has never been more fun!"
     },
     {
-      "name": "Daniel Karlsson",
-      "image": "path/to/image",
+      "id": 5,
+      "name": "Simon Rosengren",
+      "image": "/images/testimonials/simon-rosengren.webp",
       "date": "2024-06-10",
       "statement": "As a fan of nightlife, I was thrilled with the nightlife experiences recommended here. The vibrant scenes and lively clubs made our nights unforgettable. Highly recommend for anyone looking to explore Stockholm's nightlife!"
     }
