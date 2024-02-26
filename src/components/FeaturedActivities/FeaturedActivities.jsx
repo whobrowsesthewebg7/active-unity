@@ -10,7 +10,7 @@ const FeaturedActivities = () => {
 
   return (
     <section className={style.featured_activities}>
-      <h3>Featured Activities</h3>
+      <h2>Featured Activities</h2>
       <div className={style.featured_activities__container}>
         {featuredActivities.map((activity, index) => {
           const { id } = activity;

@@ -11,23 +11,23 @@
 }
 
 .activity__mask {
-  @apply absolute w-full h-auto bottom-0 left-0 flex flex-col bg-zinc-800 text-white;
+  @apply absolute w-full h-auto bottom-0 left-0 flex flex-col text-white p-2 bg-gradient-to-b from-transparent to-black;
 }
 
-.activity__mask h4 {
+.activity__mask h3 {
   @apply text-lg;
 }
 
-.activity__mask h5 {
+.activity__mask h4 {
   @apply text-base;
 }
 
-.activity__mask h4,
-.activity__mask h5 {
-  @apply pl-1 pr-1 whitespace-nowrap overflow-hidden text-ellipsis;
+.activity__mask h3,
+.activity__mask h4 {
+  @apply whitespace-nowrap overflow-hidden text-ellipsis;
 }
 
-.activity:hover .activity__mask h4,
-.activity:hover .activity__mask h5 {
+.activity:hover .activity__mask h3,
+.activity:hover .activity__mask h4 {
   @apply underline;
 }
