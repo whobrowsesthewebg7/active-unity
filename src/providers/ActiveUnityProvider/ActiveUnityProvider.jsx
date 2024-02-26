@@ -3,7 +3,12 @@ import take from "lodash/fp/take";
 
 import { createContext } from "react";
 
-import { activities, categories, testimonials } from "../../assets/mock.json";
+import {
+  activities,
+  events,
+  categories,
+  testimonials,
+} from "../../assets/mock.json";
 
 const getCategoriesMap = () => {
   const categoriesMap = categories.reduce((map, category) => {
@@ -20,6 +25,7 @@ export const ActiveUnityProviderContext = createContext({
   getCategories: () => {},
   getUpcomingEvents: () => {},
   getTestimonials: () => {},
+  getActivityByID: () => {},
   getEventByID: () => {},
 });
 
@@ -67,7 +73,7 @@ export const ActiveUnityProvider = ({ children }) => {
   };
 
   /**
-   * Get certain numbers of events, default to 5
+   * Get certain numbers of activities, default to 5
    * This function respect the categories, and only return future events
    * @param {Number} takeNEvents - specify how many events do you need, from 1 - 7
    * @returns {Array} - array of events
@@ -84,22 +90,27 @@ export const ActiveUnityProvider = ({ children }) => {
 
   /**
    * Get certain numbers of events, default to 5
-   * This function do not respect the categories, and only return future events
    * @param {Number} takeNEvents - specify how many events do you need, from 1 - 20
    * @returns {Array} - array of events
    */
   const getUpcomingEvents = (takeNEvents = 5) => {
-    const today = new Date();
-    today.setHours(0, 0, 0, 0);
-
-    const closestEvents = activities
-      .map((event) => ({ ...event, date: toEventDate(event) }))
-      .filter((event) => event.date > today)
-      .sort((a, b) => a.date - b.date);
-
-    const nEvents = take(takeNEvents)(closestEvents);
+    const nEvents = take(takeNEvents)(events);
     const result = combineEventsWithCategoryName(nEvents);
 
+    return result;
+  };
+
+  /**
+   * get a single activity by their ID
+   * @param {Number} id - Event ID
+   * @returns {Event|undefined} returns a single activity or undefined if no found with that `id`
+   */
+  const getActivityByID = (id) => {
+    const event = activities.find((event) => event.id === Number(id));
+    if (!event) return undefined;
+
+    // sorry for this ugly approach, I don't want change `combineEventsWithCategoryName`
+    const [result] = combineEventsWithCategoryName([event]);
     return result;
   };
 
@@ -109,12 +120,8 @@ export const ActiveUnityProvider = ({ children }) => {
    * @returns {Event|undefined} returns a single event or undefined if no found with that `id`
    */
   const getEventByID = (id) => {
-    const event = activities.find((event) => event.id === Number(id));
-    if (!event) return undefined;
-
-    // sorry for this ugly approach, I don't want change `combineEventsWithCategoryName`
-    const [result] = combineEventsWithCategoryName([event]);
-    return result;
+    const event = events.find((event) => event.id === Number(id));
+    return event;
   };
 
   /**
@@ -137,6 +144,7 @@ export const ActiveUnityProvider = ({ children }) => {
     getUpcomingEvents,
     getCategories,
     getTestimonials,
+    getActivityByID,
     getEventByID,
   };
 
