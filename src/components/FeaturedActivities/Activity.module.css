@@ -1,0 +1,33 @@
+.activity {
+  @apply relative w-full h-full overflow-hidden;
+}
+
+.activity__image {
+  @apply w-full h-full object-cover duration-200 ease-linear;
+}
+
+.activity:hover .activity__image {
+  @apply scale-110;
+}
+
+.activity__mask {
+  @apply absolute w-full h-auto bottom-0 left-0 flex flex-col bg-zinc-800 text-white;
+}
+
+.activity__mask h3 {
+  @apply text-lg;
+}
+
+.activity__mask h4 {
+  @apply text-base;
+}
+
+.activity__mask h3,
+.activity__mask h4 {
+  @apply pl-1 pr-1 whitespace-nowrap overflow-hidden text-ellipsis;
+}
+
+.activity:hover .activity__mask h3,
+.activity:hover .activity__mask h4 {
+  @apply underline;
+}

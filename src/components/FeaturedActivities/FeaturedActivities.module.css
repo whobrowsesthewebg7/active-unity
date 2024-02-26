@@ -1,0 +1,20 @@
+.featured_activities {
+  @apply flex p-10 flex-col gap-5;
+}
+
+.featured_activities h2 {
+  @apply text-3xl font-bold;
+}
+
+.featured_activities__container {
+  @apply grid grid-cols-2 grid-rows-4 md:grid-cols-4 md:grid-rows-2 gap-4 place-items-center;
+}
+
+.featured_activities__event {
+  @apply w-full h-full;
+
+}
+
+.featured_activities__event:first-child {
+  @apply row-span-2 col-span-2 md:row-span-2 md:col-span-2;
+}

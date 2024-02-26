@@ -1,18 +1,18 @@
 .parent {
   @apply fixed inset-0 w-full h-full flex justify-center 
-    items-center bg-black bg-opacity-40 backdrop-blur-sm animate-fade cursor-pointer;
+    items-center bg-black bg-opacity-50 backdrop-blur-sm animate-fade cursor-pointer;
 }
 
 .container {
   @apply flex flex-col h-auto bg-white p-5 w-80 rounded relative
   md:w-96 md:py-8
-  lg:w-[720px] lg:py-10
+  lg:w-[720px] lg:px-10 lg:py-16
 }
 
 .title {
   @apply text-xl mb-4 mx-auto
   md:mb-6 md:text-2xl
-  lg:text-3xl lg:mb-8
+  lg:text-3xl lg:mb-14
 }
 
 .form {
@@ -22,10 +22,14 @@
 
 .input {
   @apply border-transparent focus:border-slate-800 block rounded-full py-4 px-5 text-sm
-    bg-gray-200 outline-none focus:bg-slate-50 text-slate-800 placeholder:text-gray-500
-    transition-colors mb-4 w-full
+     bg-white outline-none focus:bg-gray-200 text-slate-800 placeholder:text-gray-500
+    transition-colors mb-6 w-full border-zinc-800 border
     md:text-lg md:mb-5
     lg:mr-4
+}
+
+.inputBold {
+  @apply border-2 border-zinc-500
 }
 
 .confirmButton {
@@ -34,9 +38,21 @@
   lg:m-0 lg:h-14 lg:w-60
 }
 
+.copyButton {
+  @apply text-lg h-12 w-full rounded-full bg-none m-auto cursor-pointer hover:bg-zinc-800 hover:text-white
+  transition-colors text-zinc-800 border-zinc-800 border-2
+  lg:m-0 lg:h-16 lg:w-60
+}
+
 .closeButton {
   @apply absolute text-3xl text-white -top-10 right-0 cursor-pointer hover:scale-150
   transition-transform duration-300 transform
   md:-right-8
   lg:text-4xl lg:-right-10 lg:-top-12
+}
+
+.error {
+  @apply text-sm text-red-500 px-1.5 py-2.5 absolute -top-10 left-0
+  lg:top-56 lg:left-12
+  
 }
