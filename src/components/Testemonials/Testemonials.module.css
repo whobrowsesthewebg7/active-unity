@@ -1,0 +1,11 @@
+.testemonial_wrapper {
+  @apply container flex-col mx-auto;
+}
+
+.testemonialcards_wrapper {
+  @apply sm:flex gap-4 mx-auto relative px-[10vw] py-[5vw]  lg:grid grid-cols-5 grid-rows-1 gap-4 mx-auto relative px-[10vw] py-[5vw];
+}
+
+.testemonial_title_text {
+  @apply text-4xl font-bold text-center gap-6 py-12;
+}
