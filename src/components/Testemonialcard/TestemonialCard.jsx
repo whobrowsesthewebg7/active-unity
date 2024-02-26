@@ -1,7 +1,6 @@
 import styles from './TestemonialCard.module.css';
 
-const TestemonialCard = ({ wrapper, name, image, date, statement }) => {
-  const testimage = "https://images.unsplash.com/photo-1609220136736-443140cffec6?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D";
+const TestemonialCard = ({ name, image, date, statement }) => {
   return (
     <>
       <div className={styles.testemonialcards_wrapper}>
@@ -27,11 +26,3 @@ const TestemonialCard = ({ wrapper, name, image, date, statement }) => {
 }
 
 export default TestemonialCard;
-
-/* I'm thinking that the card would import the testemonials from the json 
-then
-check how many there is.
-then 
-display cards depending on how big the screen is. 
-maybe even a "slider"? 
- */
