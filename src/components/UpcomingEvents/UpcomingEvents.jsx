@@ -18,14 +18,14 @@ const UpcomingEvents = () => {
   const slideLeft = (sliderId) => {
     const slider = document.getElementById(sliderId);
     if (slider) {
-      slider.scrollLeft -= 500; // You can adjust the sliding distance
+      slider.scrollLeft -= 1200; // You can adjust the sliding distance
     }
   };
 
   const slideRight = (sliderId) => {
     const slider = document.getElementById(sliderId);
     if (slider) {
-      slider.scrollLeft += 500; // You can adjust the sliding distance
+      slider.scrollLeft += 1200; // You can adjust the sliding distance
     }
   };
 

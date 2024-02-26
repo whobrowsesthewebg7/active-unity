@@ -1,5 +1,5 @@
 .event {
-  @apply h-96 w-44 relative;
+  @apply h-96 w-52 relative;
 }
 
 .event__image {
