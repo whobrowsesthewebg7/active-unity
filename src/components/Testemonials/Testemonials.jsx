@@ -48,12 +48,12 @@ const Testemonials = () => {
 
   return (
     <div className={styles.testemonial_wrapper}>
-        <section className={styles.testemonial_title}>
-        <h2 className={styles.testemonial_title_text}>
+        <h1 className={styles.testemonial_title_text}>
           See what others have said
-        </h2>
-      </section>
+        </h1>
+      <div className={styles.testemonialcards_wrapper}>
       {renderTestemonialCards()}
+      </div>
     </div>      
   );
 };

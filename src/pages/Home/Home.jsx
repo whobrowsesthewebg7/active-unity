@@ -6,6 +6,7 @@ import useActiveUnity from "../../hooks/useActiveUnity";
 import FeaturedActivities from "../../components/FeaturedActivities";
 import Categories from "../../components/Categories";
 import UpcomingEvents from "../../components/UpcomingEvents";
+import Testemonials from "../../components/Testemonials/Testemonials";
 
 const Home = () => {
   const {
