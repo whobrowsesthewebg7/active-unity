@@ -52,9 +52,9 @@ const Testemonials = () => {
 
   return (
     <div className={styles.testemonial_wrapper}>
-        <h1 className={styles.testemonial_title_text}>
+        <h2 className={styles.testemonial_title_text}>
           See what others have said
-        </h1>
+        </h2>
       <div className={styles.testemonialcards_wrapper}>
       {renderTestemonialCards()}
       </div>
@@ -63,47 +63,3 @@ const Testemonials = () => {
 };
 
 export default Testemonials;
-
-
-
-
-
-/* 
-create array from import testemonials from json
-for each name create a card
-send name, image, date, statement as parameters */
-
-
-
-/* const testemonialFromDB = getTestimonials
-
-const eventFromDB = getEventByID(id)
-
-
-<div className={styles.testemonial_wrapper}>
-        {testemonialFromDB.map(testemonial.name, index) => (
-          <TestemonialCard key={index} />
-        ))}
-      </div>
-
-
-
-        useEffect(() => {
-    if (!id) {
-      return;
-    } else {
-      const eventFromDB = getEventByID(id);
-      setEvent(eventFromDB);
-    }
-  }, [id]);
-
-
-*/
-
- /*  console.log(getTestimonials()); */
-
-/*   useEffect(() => {
-    const testemonialFromDB = getTestimonials();
-      setEvent(eventFromDB);
-  }); */
-
