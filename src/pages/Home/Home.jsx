@@ -5,6 +5,7 @@ import Subscription from "../../components/Subscription";
 import useActiveUnity from "../../hooks/useActiveUnity";
 import FeaturedActivities from "../../components/FeaturedActivities";
 import Categories from "../../components/Categories";
+import Testemonials from "../../components/Testemonials/Testemonials";
 
 const Home = () => {
   const {
@@ -36,6 +37,7 @@ const Home = () => {
       <FeaturedActivities />
       <Categories />
       <Subscription />
+      <Testemonials />
     </>
   );
 };

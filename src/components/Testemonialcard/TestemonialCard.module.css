@@ -15,7 +15,7 @@
 }
 
 .testemonial_card_picture {
-  @apply w-full rounded-t-lg;
+  @apply w-full rounded-xl;
 }
 
 .testemonial_card_text {
