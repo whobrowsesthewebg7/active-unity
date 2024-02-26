@@ -24,7 +24,7 @@
       "end_time": "18:00",
       "location": "Junibacken, Galärvarvsvägen 8, 115 21 Stockholm, Sweden",
       "poster": "/images/activities/explore-junibacken-a-magical-world-inspired-by-swedish-childrens-literature.webp",
-      "thumbnail": "/images/activities/explore-junibacken-a-magical-world-inspired-by-swedish-childrens-literature.webp"
+      "thumbnail": "/images/activities/explore-junibacken-a-magical-world-inspired-by-swedish-childrens-literature_thumb.webp"
     },
     {
       "id": 3,
@@ -50,7 +50,7 @@
       "end_time": "15:00",
       "location": "Djurgården, Stockholm",
       "poster": "/images/activities/take-a-nature-hike-in-djurgården-and-enjoy-the-beautiful-landscapes.webp",
-      "thumbnail": "/images/activities/take-a-nature-hike-in-djurgården-and-enjoy-the-beautiful-landscapes.webp"
+      "thumbnail": "/images/activities/take-a-nature-hike-in-djurgården-and-enjoy-the-beautiful-landscapes_thumb.webp"
     },
     {
       "id": 5,
@@ -153,8 +153,8 @@
       "start_time": "18:00",
       "end_time": "22:00",
       "location": "Tele2 Arena, Stockholm",
-      "poster": "/images/activities/attend-a-concert-or-event-at-the-tele2-arena.webp",
-      "thumbnail": "/images/activities/attend-a-concert-or-event-at-the-tele2-arena.webp"
+      "poster": "/images/activities/attend-a-concert-or-event-at-the-tele2-arena_800x600.webp",
+      "thumbnail": "/images/activities/attend-a-concert-or-event-at-the-tele2-arena_thumb.webp"
     },
     {
       "id": 13,
@@ -180,7 +180,7 @@
       "end_time": "18:00",
       "location": "Stockholm Spa",
       "poster": "/images/activities/unwind-at-one-of-stockholms-renowned-spas.webp",
-      "thumbnail": "/images/activities/unwind-at-one-of-stockholms-renowned-spas.webp"
+      "thumbnail": "/images/activities/unwind-at-one-of-stockholms-renowned-spas_thumb.webp"
     },
     {
       "id": 15,
@@ -193,7 +193,7 @@
       "end_time": "16:00",
       "location": "Friends Arena, Stockholm",
       "poster": "/images/activities/attend-a-soccer-match-at-Friends-Arena.webp",
-      "thumbnail": "/images/activities/attend-a-soccer-match-at-Friends-Arena.webp"
+      "thumbnail": "/images/activities/attend-a-soccer-match-at-Friends-Arena_thumb.webp"
     },
     {
       "id": 16,

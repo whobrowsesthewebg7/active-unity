@@ -12,6 +12,8 @@ const Header = () => {
           className={styles.logo}
           src={`${BASENAME}/images/logo-horz.svg`}
           alt="Logo"
+          width="16rem"
+          height="4.856875rem"
         ></img>
       </Link>
     </header>
