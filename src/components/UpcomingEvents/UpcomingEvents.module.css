@@ -7,7 +7,7 @@
 }
 
 .upcoming_events__container {
-  @apply flex flex-row gap-8 overflow-x-auto scroll-smooth;
+  @apply flex flex-row gap-6 overflow-x-auto scroll-smooth;
 }
 
 .upcoming_events__container::-webkit-scrollbar {
