@@ -12,8 +12,8 @@ const Activity = ({ activity, posterView = false }) => {
         alt={title}
       ></img>
       <div className={classes.activity__mask}>
-        <h3>{title}</h3>
-        <h4>{category}</h4>
+        <p className={classes.activity__title}>{title}</p>
+        <p className={classes.activity__category}>{category}</p>
       </div>
     </div>
   );
