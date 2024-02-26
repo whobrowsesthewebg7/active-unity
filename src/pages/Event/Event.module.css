@@ -1,0 +1,57 @@
+.parent {
+    @apply p-5
+    sm:p-10 lg:p-16 xl:p-24
+}
+
+.container {
+    @apply grid grid-cols-1  gap-6
+    lg:grid-cols-2  lg:gap-8 
+     xl:gap-10
+}
+
+.image_container {
+    @apply w-full h-full flex justify-center items-center
+}
+
+.info {
+    @apply flex flex-col justify-center
+}
+
+.date {
+    @apply flex items-center uppercase tracking-[.25em]
+    xl:text-xl
+}
+
+.iconPoint {
+    @apply text-[10px] mx-3
+}
+
+.title {
+    @apply text-2xl font-bold my-3
+    xl:text-5xl xl:my-5
+}
+
+.type {
+    @apply text-sm uppercase tracking-[.1em]
+    xl:text-lg
+}
+
+.buttons {
+    @apply flex my-5 justify-between items-center
+    xl:my-10
+}
+
+.shareButton {
+    @apply text-4xl cursor-pointer
+}
+
+.saveButton {
+    @apply text-sm h-9 w-28 rounded-full bg-zinc-800 cursor-pointer hover:bg-zinc-600
+    transition-colors text-white tracking-[.1em]
+    xl:h-14 xl:w-44 xl:text-xl
+  }
+
+  .discription {
+    @apply lg:mt-10 lg:text-xl xl:text-2xl
+  }
+  

@@ -36,7 +36,6 @@ const Home = () => {
       <Hero />
       <FeaturedActivities />
       <Categories />
-      {/* Upcoming Events */}
       <UpcomingEvents />
       <Subscription />
     </>
