@@ -1,6 +1,5 @@
 import styles from "./Event.module.css";
 import { BASENAME } from "../../constant";
-import moment from "moment";
 
 const Event = ({ event, posterView = false }) => {
   const { title, poster, thumbnail, start_date } = event;
@@ -19,7 +18,7 @@ const Event = ({ event, posterView = false }) => {
         alt={title}
       ></img>
       <div className={styles.event__mask}>
-        <h4>{title}</h4>
+        <p>{title}</p>
       </div>
     </div>
   );
