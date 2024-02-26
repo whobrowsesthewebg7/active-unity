@@ -1,5 +1,5 @@
 .featured_activities {
-  @apply flex pt-10 pb-10 pl-[5vw] pr-[5vw] md:pl-[10vw] md:pr-[10vw] flex-col gap-5 bg-zinc-800;
+  @apply flex w-screen h-auto pt-10 pb-10 pl-[5vw] pr-[5vw] md:pl-[10vw] md:pr-[10vw] flex-col gap-5 bg-zinc-800;
 }
 
 .featured_activities h2 {
