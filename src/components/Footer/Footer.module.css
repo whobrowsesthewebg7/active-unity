@@ -47,7 +47,7 @@ form {
 }
 
 .textarea_field {
-    @apply block p-2.5 w-full text-sm text-gray-900 bg-transparent rounded-lg shadow-sm border border-gray-300 placeholder:text-gray-100
+    @apply block p-2.5 w-full text-sm text-white bg-transparent rounded-lg shadow-sm border border-gray-300 placeholder:text-gray-100
 }
 
 .btn {
