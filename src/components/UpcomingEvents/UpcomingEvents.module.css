@@ -1,5 +1,5 @@
 .upcoming_events {
-  @apply flex p-10 flex-col gap-5 bg-[#181818] relative;
+  @apply flex p-10 flex-col gap-5 bg-zinc-800 relative;
 }
 
 .upcoming_events h3 {
