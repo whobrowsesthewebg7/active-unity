@@ -31,7 +31,7 @@ const UpcomingEvents = () => {
 
   return (
     <section className={styles.upcoming_events}>
-      <h3>Upcoming Events</h3>
+      <h2>Upcoming Events</h2>
       <IoIosArrowDropleftCircle
           onClick={() => {
             slideLeft(castSliderId);
