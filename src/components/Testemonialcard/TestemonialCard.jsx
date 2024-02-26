@@ -1,4 +1,5 @@
 import styles from './TestemonialCard.module.css';
+import { BASENAME } from "../../constant";
 
 const TestemonialCard = ({ name, image, date, statement }) => {
   return (
@@ -7,7 +8,7 @@ const TestemonialCard = ({ name, image, date, statement }) => {
             <div className={styles.card_wrapper}>
               <div className={styles.testemonial_card}>
                 <div className={styles.testemonial_card_picture_wrapper}>
-                  <img src={image} className={styles.testemonial_card_picture}/>
+                <img src={`${BASENAME}${image}`} className={styles.testemonial_card_picture}/>
                   </div>
                 <div className={styles.testemonial_card_text}>
                   <h5 className={styles.testemonial_card_text_thename}>{name}</h5>

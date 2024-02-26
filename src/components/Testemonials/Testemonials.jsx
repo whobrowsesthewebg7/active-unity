@@ -7,10 +7,12 @@ const Testemonials = () => {
   const { getTestimonials } = useActiveUnity();
   const testemonialFromDB = getTestimonials();
   const [isMobileView, setIsMobileView] = useState(false);
+  const [isTabletView, setIsTabletView] = useState(false);
 
   useEffect(() => {
     const checkScreenWidth = () => {
       setIsMobileView(window.innerWidth < 768);
+      setIsTabletView(window.innerWidth > 768 && window.innerWidth < 1280)
     };
 
     checkScreenWidth();
@@ -37,7 +39,19 @@ const Testemonials = () => {
           statement={testemonialFromDB[randomnumber].statement}
         />
       );
-    } else {
+    } else if (isTabletView){
+      return testemonialFromDB.slice(0, 3).map((testemonial, index) => (
+        <TestemonialCard
+          key={index}
+          name={testemonial.name}
+          image={testemonial.image}
+          date={testemonial.date}
+          statement={testemonial.statement}
+        />
+      ));
+      
+    }
+    else {
       return testemonialFromDB.map((testemonial, index) => (
         <TestemonialCard
           key={index}
