@@ -56,7 +56,7 @@ const Categories = () => {
                   <img
                     className=" w-full h-full object-cover"
                     src={`${BASENAME}${category.thumbnail}`}
-                    alt={category.name}
+                    alt={`Icon of ${category.name}`}
                   />
                 </div>
                 <p className=" text-sm font-medium">{category.name}</p>
