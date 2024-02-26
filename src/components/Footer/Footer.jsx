@@ -48,17 +48,14 @@ const Footer = () => {
         <div className={style.footer__col_short}>
           <form action="#">
             <div>
-              <input
-                className={style.input_field}
-                placeholder="name@flowbite.com"
-              />
+              <input className={style.input_field} placeholder="Name" />
             </div>
             <div>
               <input
                 type="text"
                 id="subject"
                 className={style.input_field}
-                placeholder="Let us know how we can help you"
+                placeholder="Email"
               />
             </div>
             <div class="sm:col-span-2">
