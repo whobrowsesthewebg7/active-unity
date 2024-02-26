@@ -1,0 +1,23 @@
+.upcoming_events {
+  @apply flex p-10 flex-col gap-5 bg-[#181818] relative;
+}
+
+.upcoming_events h3 {
+  @apply text-xl font-bold text-white;
+}
+
+.upcoming_events__container {
+  @apply flex flex-row gap-8 overflow-x-auto scroll-smooth;
+}
+
+.upcoming_events__container::-webkit-scrollbar {
+  @apply hidden;
+}
+
+.upcoming_events__slider_left {
+  @apply absolute bottom-52 left-9 text-white opacity-90 hover:scale-125 cursor-pointer duration-200 z-10 group-hover:block;
+}
+
+.upcoming_events__slider_right {
+  @apply absolute bottom-52 right-9 text-white opacity-90 hover:scale-125 cursor-pointer duration-200 z-10 group-hover:block;
+}
