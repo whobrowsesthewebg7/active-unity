@@ -15,7 +15,7 @@ const Hero = () => {
   };
 
   return (
-    <div className={styles.parent}>
+    <section className={styles.parent}>
       <video className={styles.video} autoPlay muted loop disableRemotePlayback>
         <source
           src={`${BASENAME}/video/welcome_to_stockholm.webm`}
@@ -23,24 +23,31 @@ const Hero = () => {
         />
         Your browser does not support the video tag.
       </video>
-      <section className={styles.content}>
-        <h1 className={styles.subtitle}>Embrace Fun:</h1>
-        <h1 className={styles.title}>Your Guide to Stockholm Activities</h1>
-        <p className={styles.paragraph}>
-          {`Explore Stockholm's vibrant activities with us! Your go-to guide for
-          fun-filled adventures, cultural delights, and memorable experiences
-          awaits. Embrace the joy of the city!`}
-        </p>
-        <button
-          className={styles.button}
-          onClick={openPopup}
-          aria-label="Open popup"
-        >
-          Subscribe
-        </button>
-      </section>
+
+      <div className={styles.content}>
+        <div className={styles.container}>
+          <h1 className={styles.subtitle}>
+            Embrace Fun:
+            <span className={styles.title}>
+              Your Guide to Stockholm Activities
+            </span>
+          </h1>
+          <p className={styles.paragraph}>
+            {`Explore Stockholm's vibrant activities with us! Your go-to guide for
+            fun-filled adventures, cultural delights, and memorable experiences
+            awaits. Embrace the joy of the city!`}
+          </p>
+          <button
+            className={styles.button}
+            onClick={openPopup}
+            aria-label="Open popup"
+          >
+            Subscribe
+          </button>
+        </div>
+      </div>
       {isPopupOpen && <Popup closePopup={closePopup} />}
-    </div>
+    </section>
   );
 };
 
