@@ -1,5 +1,5 @@
 .parent {
-    @apply bg-zinc-800 h-[70vh] lg:h-full w-full
+    @apply bg-zinc-800 h-[70vh] lg:h-[90vh] w-full
 
 }
 /* .content {
