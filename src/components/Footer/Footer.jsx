@@ -48,19 +48,19 @@ const Footer = () => {
             </div>
           </div>
           <div className={style.social__media}>
-            <a href="#">
+            <a href="https://www.youtube.com" role="button">
               <img src={youtube} alt="Youtube" />
             </a>
-            <a href="#">
+            <a href="https://www.facebook.com" role="button">
               <img src={facebook} alt="Facebook" />
             </a>
-            <a href="#">
+            <a href="https://www.instgram.com" role="button">
               <img src={instgram} alt="Instgram" />
             </a>
           </div>
         </div>
         <div className={style.footer__col_short}>
-          <form action="#">
+          <form action="#" role="form">
             <div>
               <label
                 for="name"
