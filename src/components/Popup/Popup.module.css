@@ -1,6 +1,6 @@
 .parent {
   @apply fixed inset-0 w-full h-full flex justify-center 
-    items-center bg-black bg-opacity-50 backdrop-blur-sm animate-fade cursor-pointer;
+    items-center bg-black bg-opacity-50 backdrop-blur-sm animate-fade cursor-pointer z-50;
 }
 
 .container {

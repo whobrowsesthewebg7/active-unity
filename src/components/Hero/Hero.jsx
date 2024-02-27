@@ -24,6 +24,7 @@ const Hero = () => {
         Your browser does not support the video tag.
       </video>
 
+
       <div className={styles.content}>
         <div className={styles.container}>
           <h1 className={styles.subtitle}>
@@ -45,6 +46,7 @@ const Hero = () => {
             Subscribe
           </button>
         </div>
+
       </div>
       {isPopupOpen && <Popup closePopup={closePopup} />}
     </section>
