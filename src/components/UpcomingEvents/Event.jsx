@@ -6,12 +6,15 @@ const Event = ({ event, posterView = false }) => {
 
   return (
     <div className={styles.event}>
-      <b className={styles.event__date}>
-        {new Date(start_date).toLocaleDateString("en-US", {
-          day: "numeric",
-          month: "short",
-        })}
-      </b>
+      <p className={styles.event__date}>
+        <span>
+          {new Date(start_date).toLocaleDateString("en-US", {
+            day: "numeric",
+            month: "short",
+          })}
+        </span>
+      </p>
+
       <img
         className={styles.event__image}
         src={`${BASENAME}${posterView ? poster : thumbnail}`}

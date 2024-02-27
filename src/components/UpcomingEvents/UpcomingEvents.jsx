@@ -32,30 +32,32 @@ const UpcomingEvents = () => {
   return (
     <section className={styles.upcoming_events}>
       <h2>Upcoming Events</h2>
-      <IoIosArrowDropleftCircle
+      <div className=" relative">
+        <IoIosArrowDropleftCircle
           onClick={() => {
             slideLeft(castSliderId);
           }}
           className={styles.upcoming_events__slider_left}
           size={40}
         />
-      <div className={styles.upcoming_events__container} id={castSliderId}>
-        {upcomingEvents.map((event, index) => {
-          const { id } = event;
-          return (
-            <Link key={id} to={`./event/${id}`}>
-              <Event event={event} posterView={index === 0 ? true : false} />
-            </Link>
-          );
-        })}
-      </div>
-      <IoIosArrowDroprightCircle
+        <div className={styles.upcoming_events__container} id={castSliderId}>
+          {upcomingEvents.map((event, index) => {
+            const { id } = event;
+            return (
+              <Link key={id} to={`./event/${id}`}>
+                <Event event={event} posterView={index === 0 ? true : false} />
+              </Link>
+            );
+          })}
+        </div>
+        <IoIosArrowDroprightCircle
           onClick={() => {
             slideRight(castSliderId);
           }}
           className={styles.upcoming_events__slider_right}
           size={40}
         />
+      </div>
     </section>
   );
 };
