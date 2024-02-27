@@ -4,15 +4,13 @@
 }
 
 .container {
-  @apply flex flex-col h-auto bg-white p-5 w-80 rounded relative
+  @apply flex flex-col h-auto bg-white p-8 w-80 rounded relative
   md:w-96 md:py-8
-  lg:w-[720px] lg:px-10 lg:py-16
+  lg:w-[720px] lg:px-10 lg:p-16
 }
 
 .title {
-  @apply text-xl mb-4 mx-auto
-  md:mb-6 md:text-2xl
-  lg:text-3xl lg:mb-14
+  @apply mb-4 mx-auto
 }
 
 .form {
@@ -23,8 +21,8 @@
 .input {
   @apply border-transparent focus:border-slate-800 block rounded-full py-4 px-5 text-sm
      bg-white outline-none focus:bg-gray-200 text-slate-800 placeholder:text-gray-500
-    transition-colors mb-6 w-full border-zinc-800 border
-    md:text-lg md:mb-5
+    transition-colors mb-2 w-full border-zinc-800 border
+    md:text-base md:mb-3
     lg:mr-4
 }
 
@@ -33,13 +31,13 @@
 }
 
 .confirmButton {
-  @apply text-lg h-12 w-full rounded-full bg-rose-600 m-auto cursor-pointer hover:bg-rose-700
+  @apply text-base h-12 w-full rounded-full bg-rose-600 m-auto cursor-pointer hover:bg-rose-700
   transition-colors text-white
   lg:m-0 lg:h-14 lg:w-60
 }
 
 .copyButton {
-  @apply text-lg h-12 w-full rounded-full bg-none m-auto cursor-pointer hover:bg-zinc-800 hover:text-white
+  @apply text-base h-12 w-full rounded-full bg-none m-auto cursor-pointer hover:bg-zinc-800 hover:text-white
   transition-colors text-zinc-800 border-zinc-800 border-2
   lg:m-0 lg:h-16 lg:w-60
 }

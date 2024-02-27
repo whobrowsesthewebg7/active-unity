@@ -1,11 +1,11 @@
-import React from 'react';
-import styles from './Popup.module.css';
-import { CiCircleRemove } from 'react-icons/ci';
-import { useForm } from 'react-hook-form';
+import React from "react";
+import styles from "./Popup.module.css";
+import { CiCircleRemove } from "react-icons/ci";
+import { useForm } from "react-hook-form";
 
 const Popup = ({ closePopup }) => {
   const handleOnClose = (e) => {
-    if (e.target.id === 'parent') closePopup();
+    if (e.target.id === "parent") closePopup();
   };
 
   const {
@@ -15,7 +15,7 @@ const Popup = ({ closePopup }) => {
     setError,
     formState: { errors, isValid },
   } = useForm({
-    mode: 'onChange',
+    mode: "onChange",
   });
 
   const onSubmit = () => {
@@ -27,29 +27,33 @@ const Popup = ({ closePopup }) => {
   return (
     <div className={styles.parent} id="parent" onClick={handleOnClose}>
       <div className={styles.container}>
-        <CiCircleRemove className={styles.closeButton} onClick={closePopup} aria-label="Close popup" />
-        <p3 className={styles.title}>Sign up for our newsletter</p3>
+        <CiCircleRemove
+          className={styles.closeButton}
+          onClick={closePopup}
+          aria-label="Close popup"
+        />
+        <h3 className={styles.title}>Sign up for our newsletter</h3>
         <form className={styles.form} onSubmit={handleSubmit(onSubmit)}>
           <input
             className={styles.input}
             placeholder="enter your email"
             type="text"
-            {...register('email', {
+            {...register("email", {
               required: {
                 value: true,
-                message: 'Please enter your email',
+                message: "Please enter your email",
               },
               minLength: {
                 value: 3,
-                message: 'Minimum length is 3',
+                message: "Minimum length is 3",
               },
               maxLength: {
                 value: 40,
-                message: 'Maximum length is 40',
+                message: "Maximum length is 40",
               },
               pattern: {
                 value: /^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$/,
-                message: 'Please enter a valid email',
+                message: "Please enter a valid email",
               },
             })}
           />
@@ -57,7 +61,9 @@ const Popup = ({ closePopup }) => {
             Subscribe now
           </button>
         </form>
-        {errors?.email && <div className={styles.error}>{errors.email.message}</div>}
+        {errors?.email && (
+          <div className={styles.error}>{errors.email.message}</div>
+        )}
       </div>
     </div>
   );
