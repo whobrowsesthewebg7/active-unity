@@ -3,7 +3,7 @@
 }
 
 .testimonial_title_text {
-  @apply text-4xl font-bold text-center gap-6 py-12;
+  @apply text-center gap-6 py-12;
 }
 
 .testimonials_wrapper {
