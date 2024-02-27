@@ -10,6 +10,11 @@
   @apply absolute w-full h-full top-0 left-0 flex justify-center items-end pb-6 text-white opacity-0 bg-zinc-800 p-2 text-center hover:opacity-80 duration-300;
 }
 
+
 .event__date {
-    @apply absolute text-zinc-800 bg-white p-2 z-10 font-thin text-sm rounded-tl-lg rounded-br-lg;
+    @apply absolute bg-white p-2 z-10 rounded-tl-lg rounded-br-lg;
+}
+
+.event__date span {
+  @apply w-[3ch] text-zinc-800 font-thin block text-center;
 }
