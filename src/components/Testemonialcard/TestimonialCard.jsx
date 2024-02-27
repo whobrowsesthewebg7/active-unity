@@ -11,9 +11,7 @@ const TestimonialCard = ({ name, image, date, statement }) => {
       />
       <div className={styles.testimonial__who}>
         <h4 className={styles.testimonial__name}>{name}</h4>
-        <p className={styles.testimonial__date} role="date">
-          {date}
-        </p>
+        <p className={styles.testimonial__date}>{date}</p>
       </div>
       <p className={styles.testimonial__statement}>{statement}</p>
     </div>
