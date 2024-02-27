@@ -38,7 +38,7 @@ const UpcomingEvents = () => {
             slideLeft(castSliderId);
           }}
           className={styles.upcoming_events__slider_left}
-          size={60}
+          size={40}
         />
         <div className={styles.upcoming_events__container} id={castSliderId}>
           {upcomingEvents.map((event, index) => {
@@ -55,7 +55,7 @@ const UpcomingEvents = () => {
             slideRight(castSliderId);
           }}
           className={styles.upcoming_events__slider_right}
-          size={60}
+          size={40}
         />
       </div>
     </section>

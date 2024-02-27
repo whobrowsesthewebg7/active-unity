@@ -11,13 +11,16 @@
 }
 
 .upcoming_events__container::-webkit-scrollbar {
-  @apply hidden;
+  @apply md:hidden ;
 }
 
+
 .upcoming_events__slider_left {
+
   @apply absolute top-1/2 -left-8 -translate-y-1/2 text-white opacity-90 lg:hover:scale-125 cursor-pointer duration-200 z-10 group-hover:block;
 }
 
 .upcoming_events__slider_right {
   @apply absolute top-1/2 -right-8 -translate-y-1/2 text-white opacity-90 lg:hover:scale-125 cursor-pointer duration-200 z-10 group-hover:block;
+
 }

@@ -1,3 +1,3 @@
-import TestemonialCard from "./TestemonialCard";
+import TestimonialCard from "./TestimonialCard";
 
-export default TestemonialCard;
+export default TestimonialCard;
