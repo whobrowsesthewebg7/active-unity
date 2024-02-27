@@ -15,7 +15,7 @@ const Subscription = () => {
   };
 
   return (
-    <div className={styles.container}>
+    <section className={styles.container}>
       <img
         className={styles.image}
         src={`${BASENAME}/images/signup-bg.webp`}
@@ -36,7 +36,7 @@ const Subscription = () => {
         </button>
       </section>
       {isPopupOpen && <Popup closePopup={closePopup} />}
-    </div>
+    </section>
   );
 };
 

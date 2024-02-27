@@ -33,14 +33,14 @@ const Home = () => {
   }, []);
 
   return (
-    <>
+    <main>
       <Hero />
       <FeaturedActivities />
       <Categories />
       <UpcomingEvents />
       <Subscription />
       <Testemonials />
-    </>
+    </main>
   );
 };
 

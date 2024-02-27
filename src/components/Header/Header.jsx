@@ -6,7 +6,8 @@ import { BASENAME } from "../../constant";
 
 const Header = () => {
   return (
-    <header className={styles.parent}>
+    <header>
+      <div  className={styles.parent}>
       <Link to="./">
         <img
           className={styles.logo}
@@ -16,6 +17,7 @@ const Header = () => {
           height="4.856875rem"
         ></img>
       </Link>
+      </div>
     </header>
   );
 };
