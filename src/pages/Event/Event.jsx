@@ -39,7 +39,7 @@ const Event = () => {
   }, [id, getEventByID]);
 
   return (
-    <div className={styles.parent}>
+    <main className={styles.parent}>
       <div className={styles.container}>
         <div className={styles.image_container}>
           <img
@@ -78,7 +78,7 @@ const Event = () => {
       {isLinkPopupOpen && (
         <PopupLink closePopup={closePopup} pathname={pathname} />
       )}
-    </div>
+    </main>
   );
 };
 

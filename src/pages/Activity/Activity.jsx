@@ -39,7 +39,7 @@ const Activity = () => {
   }, [id, getEventByID]);
 
   return (
-    <div className={styles.parent}>
+    <main className={styles.parent}>
       <div className={styles.container}>
         <img
           className={styles.image}
@@ -76,7 +76,7 @@ const Activity = () => {
       {isLinkPopupOpen && (
         <PopupLink closePopup={closePopup} pathname={pathname} />
       )}
-    </div>
+    </main>
   );
 };
 

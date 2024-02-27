@@ -15,7 +15,7 @@ const Hero = () => {
   };
 
   return (
-    <div className={styles.parent}>
+    <section className={styles.parent}>
       <video className={styles.video} autoPlay muted loop disableRemotePlayback>
         <source
           src={`${BASENAME}/video/welcome_to_stockholm.webm`}
@@ -23,7 +23,7 @@ const Hero = () => {
         />
         Your browser does not support the video tag.
       </video>
-      <section className={styles.content}>
+      <div className={styles.content}>
         <h1 className={styles.subtitle}>Embrace Fun:</h1>
         <h1 className={styles.title}>Your Guide to Stockholm Activities</h1>
         <p className={styles.paragraph}>
@@ -38,9 +38,9 @@ const Hero = () => {
         >
           Subscribe
         </button>
-      </section>
+      </div>
       {isPopupOpen && <Popup closePopup={closePopup} />}
-    </div>
+    </section>
   );
 };
 
