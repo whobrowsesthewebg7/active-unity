@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { useParams, useLocation } from "react-router-dom";
+import { useParams, useLocation, Link } from "react-router-dom";
 import moment from "moment";
 import styles from "./Event.module.css";
 import useActiveUnity from "../../hooks/useActiveUnity";
@@ -40,6 +40,12 @@ const Event = () => {
 
   return (
     <main className={styles.parent}>
+      <p className=" text-sm">
+        <Link to="/" className=" underline">
+          Home
+        </Link>{" "}
+        / {event.title}
+      </p>
       <div className={styles.container}>
         <div className={styles.image_container}>
           <img
@@ -72,9 +78,9 @@ const Event = () => {
               {buttonSaveName}
             </button>
           </div>
+          <p className={styles.discription}>{event.description}</p>
         </section>
       </div>
-      <p className={styles.discription}>{event.description}</p>
       {isLinkPopupOpen && (
         <PopupLink closePopup={closePopup} pathname={pathname} />
       )}
