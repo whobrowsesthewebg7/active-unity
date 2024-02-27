@@ -11,13 +11,13 @@
 }
 
 .title {
-  @apply text-3xl font-bold mb-4 text-center lg:text-4xl lg:mb-10;
+  @apply mb-4 text-center lg:mb-10;
 }
 
 .paragraph {
-  @apply text-lg mb-7 text-center lg:text-2xl lg:mb-12 lg:w-[720px];
+  @apply text-base mb-7 text-center lg:text-xl lg:mb-12 lg:w-[720px];
 }
 
 .button {
-  @apply text-lg h-12 w-60 rounded-full bg-none mx-auto cursor-pointer hover:bg-zinc-100 hover:border-none hover:text-zinc-900 border-white border transition-colors;
+  @apply text-base h-11 w-40 rounded-full bg-none mx-auto cursor-pointer hover:bg-zinc-100 hover:border-none hover:text-zinc-900 border-white border transition-colors;
 }
