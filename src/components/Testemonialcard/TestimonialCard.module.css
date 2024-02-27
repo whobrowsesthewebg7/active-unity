@@ -11,11 +11,11 @@
 }
 
 .testimonial__name {
-  @apply text-xl;
+  @apply text-xl font-bold;
 }
 
 .testimonial__date {
-  @apply font-semibold;
+  @apply font-light text-sm;
 }
 
 .testimonial__statement {

@@ -60,7 +60,7 @@ const Footer = () => {
           </div>
         </div>
         <div className={style.footer__col_short}>
-          <form action="#" role="form">
+          <form action="#">
             <div>
               <label
                 for="name"
@@ -77,11 +77,7 @@ const Footer = () => {
               >
                 Your email:
               </label>
-              <input
-                type="email"
-                id="email"
-                className={style.input_field}
-              />
+              <input type="email" id="email" className={style.input_field} />
             </div>
             <div class="sm:col-span-2">
               <label
