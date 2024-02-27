@@ -4,6 +4,7 @@ import footer_logo from "../../assets/images/logo-vert.svg";
 import youtube from "../../assets/images/youtube.svg";
 import facebook from "../../assets/images/facebook.svg";
 import instgram from "../../assets/images/instgram.svg";
+import { MdLocationCity, MdAlternateEmail, MdLocalPhone } from "react-icons/md";
 
 const Footer = () => {
   return (
@@ -25,13 +26,26 @@ const Footer = () => {
         <div className={style.footer__col_short}>
           <h3 className={style.contact__title}>Contact Information</h3>
           <div className={style.contact_address}>
-            <p>Active Unity AB</p>
-            <p>Fleminggatan 4</p>
-            <p>SE-112 26 Stockholm</p>
+            <MdLocationCity size={30} />
+            <p>
+              <span>Active Unity AB</span>
+              <span>Fleminggatan 4</span>
+              <span>SE-112 26 Stockholm</span>
+            </p>
           </div>
           <div className={style.contact_address}>
-            <p>+46 8-508 285 08</p>
-            <p>touristinfo@stockholm.se</p>
+            <div className={style.contact_phone}>
+              <MdLocalPhone size={30} />
+              <a href="tel:+46 8-508 285 08">+46 8-508 285 08</a>
+            </div>
+          </div>
+          <div className={style.contact_address}>
+            <div className={style.contact_email}>
+              <MdAlternateEmail size={25} />
+              <a href="mailto:touristinfo@stockholm.se">
+                touristinfo@stockholm.se
+              </a>
+            </div>
           </div>
           <div className={style.social__media}>
             <a href="#">
@@ -48,22 +62,38 @@ const Footer = () => {
         <div className={style.footer__col_short}>
           <form action="#">
             <div>
-              <input className={style.input_field} placeholder="Name" />
+              <label
+                for="name"
+                className="block mb-2 text-sm font-medium text-white"
+              >
+                Your name:
+              </label>
+              <input id="name" type="text" className={style.input_field} />
             </div>
             <div>
+              <label
+                for="email"
+                className="block mb-2 text-sm font-medium text-white"
+              >
+                Your email:
+              </label>
               <input
-                type="text"
-                id="subject"
+                type="email"
+                id="email"
                 className={style.input_field}
-                placeholder="Email"
               />
             </div>
             <div class="sm:col-span-2">
+              <label
+                for="message"
+                className="block mb-2 text-sm font-medium text-white"
+              >
+                Your message:
+              </label>
               <textarea
                 id="message"
                 rows="6"
                 className={style.textarea_field}
-                placeholder="Leave a comment..."
               ></textarea>
             </div>
             <button type="submit" className={style.btn}>
