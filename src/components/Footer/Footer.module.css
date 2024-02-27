@@ -27,7 +27,23 @@ footer {
 }
 
 .contact_address {
-    @apply my-4 leading-8
+    @apply my-4 leading-8 flex gap-2
+}
+
+.contact_address span{
+    @apply block
+}
+
+.contact_address a:hover {
+    @apply underline;
+}
+
+.contact_phone {
+    @apply flex gap-2
+}
+
+.contact_email {
+    @apply flex gap-2
 }
 
 .social__media {
@@ -38,16 +54,20 @@ footer {
     @apply w-7 h-auto
 }
 
+.social__media img:hover {
+    @apply scale-110
+}
+
 form {
     @apply space-y-4
 }
 
 .input_field {
-    @apply border border-gray-300 text-white bg-transparent text-sm rounded-lg block w-full p-3 placeholder:text-gray-100
+    @apply border border-gray-300 text-white bg-transparent text-sm rounded-lg block w-full p-2 placeholder:text-gray-100
 }
 
 .textarea_field {
-    @apply block p-2.5 w-full text-sm text-white bg-transparent rounded-lg shadow-sm border border-gray-300 placeholder:text-gray-100
+    @apply block p-1 w-full text-sm text-white bg-transparent rounded-lg shadow-sm border border-gray-300 placeholder:text-gray-100
 }
 
 .btn {
