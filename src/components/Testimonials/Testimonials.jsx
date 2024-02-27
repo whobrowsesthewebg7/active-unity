@@ -1,58 +1,30 @@
 import { useState, useEffect } from "react";
+import sampleSize from "lodash/fp/sampleSize";
 import TestimonialCard from "../Testemonialcard";
 import styles from "./Testimonials.module.css";
 import useActiveUnity from "../../hooks/useActiveUnity";
 
 const Testimonials = () => {
   const { getTestimonials } = useActiveUnity();
-  const testimonialFromDB = getTestimonials();
-  const [isMobileView, setIsMobileView] = useState(false);
-  const [isTabletView, setIsTabletView] = useState(false);
+  const [testimonials] = useState(() => getTestimonials());
+  const [shuffledTestimonials, setShuffledTestimonials] =
+    useState(testimonials);
 
   useEffect(() => {
-    const checkScreenWidth = () => {
-      setIsMobileView(window.innerWidth < 768);
-      setIsTabletView(window.innerWidth > 768 && window.innerWidth < 1280);
-    };
-
-    checkScreenWidth();
-
-    window.addEventListener("resize", checkScreenWidth);
-
-    return () => {
-      window.removeEventListener("resize", checkScreenWidth);
-    };
-  }, []);
-
-  function getRandomNumber() {
-    return Math.floor(Math.random() * 5); // Generates a random integer between 0 and 4
-  }
-  const randomnumber = getRandomNumber();
-
-  const renderTestimonialCards = () => {
-    if (isMobileView) {
-      const testimonial = testimonialFromDB[randomnumber];
-      return <TestimonialCard {...testimonial} />;
-    } else if (isTabletView) {
-      return testimonialFromDB
-        .slice(0, 3)
-        .map((testimonial, index) => (
-          <TestimonialCard key={index} {...testimonial} />
-        ));
-    } else {
-      return testimonialFromDB.map((testimonial, index) => (
-        <TestimonialCard key={index} {...testimonial} />
-      ));
-    }
-  };
+    const shuffledTestimonials = sampleSize(testimonials.length)(testimonials);
+    setShuffledTestimonials(shuffledTestimonials);
+  }, [testimonials]);
 
   return (
-    <section className={styles.testemonial_wrapper}>
-      <h2 className={styles.testemonial_title_text}>
+    <section className={styles.testimonial_wrapper}>
+      <h2 className={styles.testimonial_title_text}>
         See what others have said
       </h2>
-      <div className={styles.testemonialcards_wrapper}>
-        {renderTestimonialCards()}
+      <div className={styles.testimonials_wrapper}>
+        {shuffledTestimonials.map((testimonial) => {
+          const { id } = testimonial;
+          return <TestimonialCard key={id} {...testimonial} />;
+        })}
       </div>
     </section>
   );

@@ -1,5 +1,5 @@
 .testimonial__card {
-  @apply relative w-full h-full p-4 grid grid-cols-3 grid-rows-2 gap-4 rounded-3xl bg-white shadow-2xl;
+  @apply relative w-[80%] md:w-full h-full p-4 grid grid-cols-3 grid-rows-2 gap-4 rounded-3xl bg-white shadow-2xl hover:shadow-zinc-800 place-items-center;
 }
 
 .testimonial__picture {
@@ -10,9 +10,13 @@
   @apply col-span-2 pl-4 flex flex-col justify-center;
 }
 
-.testimonial__name {}
+.testimonial__name {
+  @apply text-xl;
+}
 
-.testimonial__date {}
+.testimonial__date {
+  @apply font-semibold;
+}
 
 .testimonial__statement {
   @apply col-span-3 flex items-center justify-center
