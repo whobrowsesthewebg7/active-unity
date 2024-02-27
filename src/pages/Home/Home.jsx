@@ -6,7 +6,7 @@ import useActiveUnity from "../../hooks/useActiveUnity";
 import FeaturedActivities from "../../components/FeaturedActivities";
 import Categories from "../../components/Categories";
 import UpcomingEvents from "../../components/UpcomingEvents";
-import Testemonials from "../../components/Testemonials/Testemonials";
+import Testimonials from "../../components/Testimonials/Testimonials";
 
 const Home = () => {
   const {
@@ -39,7 +39,7 @@ const Home = () => {
       <Categories />
       <UpcomingEvents />
       <Subscription />
-      <Testemonials />
+      <Testimonials />
     </main>
   );
 };

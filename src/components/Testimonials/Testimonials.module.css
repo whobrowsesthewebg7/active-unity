@@ -1,0 +1,23 @@
+.testimonial_wrapper {
+  @apply flex-col py-10 px-[5vw] md:px-[10vw]
+}
+
+.testimonial_title_text {
+  @apply text-4xl font-bold text-center gap-6 py-12;
+}
+
+.testimonials_wrapper {
+  @apply grid grid-cols-1 md:grid-rows-2 md:grid-cols-6 gap-4 place-items-center;
+}
+
+.testimonials_wrapper div {
+  @apply col-span-1 md:col-span-2;
+}
+
+.testimonials_wrapper div:nth-child(4) {
+  @apply md:col-start-2 md:col-end-4;
+}
+
+.testimonials_wrapper div:nth-child(5) {
+  @apply: md:col-start-4 md:col-end-6;
+}
