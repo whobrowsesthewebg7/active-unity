@@ -38,7 +38,7 @@ const UpcomingEvents = () => {
             slideLeft(castSliderId);
           }}
           className={styles.upcoming_events__slider_left}
-          size={40}
+          size={48}
           role="button"
           aria-label="Slide Left"
         />
@@ -57,7 +57,7 @@ const UpcomingEvents = () => {
             slideRight(castSliderId);
           }}
           className={styles.upcoming_events__slider_right}
-          size={40}
+          size={48}
           role="button"
           aria-label="Slide Right"
         />
