@@ -6,7 +6,10 @@
 - [Project Contributors](#project_contributors)
 - [School Information](#school_information)
 - [Project Screenshots](#project_screenshots)
+- [Links](#links)
 - [Features](#features)
+- [Target Audience](#target_audience)
+- [Additional Notes](#additional_notes)
 
 ## Overview
 
@@ -38,7 +41,7 @@ School Name: Hyper Island
 
 ![Screenshot 2024-02-28 at 23 35 16](./public/images/accessibe.png)
 
-### Links
+## Links
 
 - Solution URL: https://github.com/whobrowsesthewebg7/active-unity
 - Live Site URL: https://whobrowsesthewebg7.github.io/active-unity/
