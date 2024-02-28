@@ -3,12 +3,13 @@ import { BASENAME } from "../../constant";
 
 const TestimonialCard = ({ name, image, date, statement }) => {
   return (
-    <div className={styles.testimonial__card}>
+    <div className={styles.testimonial__card} role="blockquote">
       <figure>
         <img
           src={`${BASENAME}${image}`}
           className={styles.testimonial__picture}
           alt={name}
+          role="img"
         />
       </figure>
       <div className={styles.testimonial__who}>

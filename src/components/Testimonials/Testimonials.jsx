@@ -16,7 +16,11 @@ const Testimonials = () => {
   }, [testimonials]);
 
   return (
-    <section className={styles.testimonial_wrapper}>
+    <section
+      className={styles.testimonial_wrapper}
+      role="region"
+      aria-label="Testimonials Section"
+    >
       <h2 className={styles.testimonial_title_text}>
         See what others have said
       </h2>

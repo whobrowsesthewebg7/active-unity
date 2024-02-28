@@ -39,6 +39,8 @@ const UpcomingEvents = () => {
           }}
           className={styles.upcoming_events__slider_left}
           size={40}
+          role="button"
+          aria-label="Slide Left"
         />
         <div className={styles.upcoming_events__container} id={castSliderId}>
           {upcomingEvents.map((event, index) => {
@@ -56,6 +58,8 @@ const UpcomingEvents = () => {
           }}
           className={styles.upcoming_events__slider_right}
           size={40}
+          role="button"
+          aria-label="Slide Right"
         />
       </div>
     </section>

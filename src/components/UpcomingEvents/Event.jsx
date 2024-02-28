@@ -5,7 +5,7 @@ const Event = ({ event, posterView = false }) => {
   const { title, poster, thumbnail, start_date } = event;
 
   return (
-    <div className={styles.event}>
+    <article className={styles.event} role="article">
       <p className={styles.event__date}>
         <span>
           {new Date(start_date).toLocaleDateString("en-US", {
@@ -18,12 +18,14 @@ const Event = ({ event, posterView = false }) => {
       <img
         className={styles.event__image}
         src={`${BASENAME}${posterView ? poster : thumbnail}`}
-        alt={title}
+        alt={title || "Event Image"}
+        role="img"
+        aria-label={title || "Event Image"}
       ></img>
       <div className={styles.event__mask}>
         <p>{title}</p>
       </div>
-    </div>
+    </article>
   );
 };
 
