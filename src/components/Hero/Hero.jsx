@@ -15,8 +15,25 @@ const Hero = () => {
     setIsPopupOpen(false);
   };
 
+  const isPopupInitialLoaded = () => {
+    const isPopupInitialLoaded = Number(
+      localStorage.getItem("isPopupInitialLoaded")
+    );
+    return Boolean(isPopupInitialLoaded);
+  };
+
+  const setPopupInitialLoaded = () => {
+    localStorage.setItem("isPopupInitialLoaded", 1);
+  };
+
   useEffect(() => {
-    const openPopup = () => setIsPopupOpen(true);
+    if (isPopupInitialLoaded()) return;
+
+    const openPopup = () => {
+      setIsPopupOpen(true);
+      setPopupInitialLoaded();
+    };
+
     setTimeout(openPopup, 1000);
   }, []);
 
