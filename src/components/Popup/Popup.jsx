@@ -25,7 +25,13 @@ const Popup = ({ closePopup }) => {
   };
 
   return (
-    <div className={styles.parent} id="parent" onClick={handleOnClose}>
+    <div
+      className={styles.parent}
+      id="parent"
+      onClick={handleOnClose}
+      role="dialog"
+      aria-labelledby="popupTitle"
+    >
       <div className={styles.container}>
         <CiCircleRemove
           className={styles.closeButton}
