@@ -2,6 +2,7 @@ import { useState } from "react";
 import styles from "./Hero.module.css";
 import Popup from "../Popup";
 import { BASENAME } from "../../constant";
+import { useEffect } from "react";
 
 const Hero = () => {
   const [isPopupOpen, setIsPopupOpen] = useState(false);
@@ -13,6 +14,11 @@ const Hero = () => {
   const closePopup = () => {
     setIsPopupOpen(false);
   };
+
+  useEffect(() => {
+    const openPopup = () => setIsPopupOpen(true);
+    setTimeout(openPopup, 1000);
+  }, []);
 
   return (
     <section className={styles.parent}>
