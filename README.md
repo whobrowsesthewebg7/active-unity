@@ -14,11 +14,11 @@ Active Unity is a website for local community events. This site could cater to r
 
 ## Project Contributors
 
-1. Hassen Ahmed
-2. Simon Rosengren
-3. Daniel Pettersson
-4. Jinjing Wu
-5. Kseniia Tikhonova
+1. [Hassen Ahmed] (https://github.com/hassanidris)
+2. [Simon Rosengren] (https://github.com/simon-rosengren)
+3. [Daniel Pettersson] (https://github.com/Cyloon)
+4. [Jinjing Wu] (https://github.com/charleserious)
+5. [Kseniia Tikhonova] (https://github.com/TikhonovaKs)
 
 ## School Information
 
