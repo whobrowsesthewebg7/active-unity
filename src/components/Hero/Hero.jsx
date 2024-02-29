@@ -41,10 +41,12 @@ const Hero = () => {
     <section className={styles.parent}>
       <video className={styles.video} autoPlay muted loop disableRemotePlayback>
         <source
+          autoPlay
           src={`${BASENAME}/video/welcome_to_stockholm.webm`}
           type="video/webm"
         />
         <source
+          autoPlay
           src={`${BASENAME}/video/welcome_to_stockholm.mp4`}
           type="video/mp4"
         />
