@@ -1,5 +1,5 @@
 .parent {
-    @apply bg-zinc-800 h-[70vh] lg:h-[90vh] w-full
+    @apply bg-zinc-800 h-[70vh] lg:h-[90vh] w-full relative -z-20
 
 }
 /* .content {
@@ -9,7 +9,7 @@
 } */
 
 .content {
-    @apply absolute top-0 left-0 h-full w-full flex justify-center sm:justify-start items-center px-[10vw] 
+    @apply absolute top-0 left-0 h-full w-full flex justify-center sm:justify-start items-center px-[10vw] z-10 
 }
 
 .container {
