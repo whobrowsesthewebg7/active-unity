@@ -1,5 +1,5 @@
 .container {
-  @apply relative h-96 lg:h-[520px];
+  @apply relative h-96 lg:h-[520px]
 }
 
 .image {
