@@ -8,7 +8,7 @@ const Activity = ({ activity, posterView = false }) => {
     <div className={classes.activity}>
       <img
         className={classes.activity__image}
-        src={`${BASENAME}${posterView ? poster : thumbnail}`}
+        src={`${BASENAME}${thumbnail}`}
         alt={title}
       ></img>
       <div className={classes.activity__mask}>
