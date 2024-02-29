@@ -325,7 +325,7 @@
       "end_time": "22:30",
       "location": "Arenatorget 1, 121 77 Johanneshov",
       "poster": "/images/events/event-jason-derulo-nu-king-tour.webp",
-      "thumbnail": "/images/events/event-jason-derulo-nu-king-tour.webp"
+      "thumbnail": "/images/events/event-jason-derulo-nu-king-tour-thumb.webp"
     },
     {
       "id": 2,
@@ -338,7 +338,7 @@
       "end_time": "20:00",
       "location": "Djurgårdsvägen 60, 115 21 Stockholm",
       "poster": "/images/events/event-the-spring-salon-2024-at-liljevalchs.webp",
-      "thumbnail": "/images/events/event-the-spring-salon-2024-at-liljevalchs.webp"
+      "thumbnail": "/images/events/event-the-spring-salon-2024-at-liljevalchs-thumb.webp"
     },
     {
       "id": 3,
@@ -351,7 +351,7 @@
       "end_time": "22:30",
       "location": "Djurgårdsslätten 43-45, 115 21 Stockholm",
       "poster": "/images/events/event-the-soundtrack-of-our-lives.webp",
-      "thumbnail": "/images/events/event-the-soundtrack-of-our-lives.webp"
+      "thumbnail": "/images/events/event-the-soundtrack-of-our-lives-thumb.webp"
     },
     {
       "id": 4,
@@ -364,7 +364,7 @@
       "end_time": "18:00",
       "location": "Råsta Strandväg 1, 169 56 Solna",
       "poster": "/images/events/event-the-tech-arena.webp",
-      "thumbnail": "/images/events/event-the-tech-arena.webp"
+      "thumbnail": "/images/events/event-the-tech-arena-thumb.webp"
     },
     {
       "id": 5,
@@ -377,7 +377,7 @@
       "end_time": "17:00",
       "location": "Djurgårdsvägen 60, 115 21 Stockholm",
       "poster": "/images/events/event-nordic-life.webp",
-      "thumbnail": "/images/events/event-nordic-life.webp"
+      "thumbnail": "/images/events/event-nordic-life-thumb.webp"
     },
     {
       "id": 6,
@@ -390,7 +390,7 @@
       "end_time": "19:30",
       "location": "Lidingövägen",
       "poster": "/images/events/event-biathlon-skidskyttekampen.webp",
-      "thumbnail": "/images/events/event-biathlon-skidskyttekampen.webp"
+      "thumbnail": "/images/events/event-biathlon-skidskyttekampen-thumb.webp"
     },
     {
       "id": 7,
@@ -403,7 +403,7 @@
       "end_time": "20:00",
       "location": "Sergels Torg 2",
       "poster": "/images/events/event-avicii-experience.webp",
-      "thumbnail": "/images/events/event-avicii-experience.webp"
+      "thumbnail": "/images/events/event-avicii-experience-thumb.webp"
     },
     {
       "id": 8,
@@ -416,7 +416,7 @@
       "end_time": "20:00",
       "location": "Hamndalsvägen 8",
       "poster": "/images/events/event-winter-holiday-yasuragi.webp",
-      "thumbnail": "/images/events/event-winter-holiday-yasuragi.webp"
+      "thumbnail": "/images/events/event-winter-holiday-yasuragi-thumb.webp"
     },
     {
       "id": 9,
@@ -429,7 +429,7 @@
       "end_time": "20:00",
       "location": "Kungsträdgården",
       "poster": "/images/events/event-winter-break-ice-skating.webp",
-      "thumbnail": "/images/events/event-winter-break-ice-skating.webp"
+      "thumbnail": "/images/events/event-winter-break-ice-skating-thumb.webp"
     },
     {
       "id": 10,
@@ -442,7 +442,7 @@
       "end_time": "20:00",
       "location": "Södra Blasieholmshamnen 2",
       "poster": "/images/events/event-beauty-and-the-unexpected.webp",
-      "thumbnail": "/images/events/event-beauty-and-the-unexpected.webp"
+      "thumbnail": "/images/events/event-beauty-and-the-unexpected-thumb.webp"
     }
   ],
   "testimonials": [

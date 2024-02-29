@@ -17,7 +17,7 @@ const Event = ({ event, posterView = false }) => {
 
       <img
         className={styles.event__image}
-        src={`${BASENAME}${posterView ? poster : thumbnail}`}
+        src={`${BASENAME}${thumbnail}`}
         alt={title || "Event Image"}
         role="img"
         aria-label={title || "Event Image"}
