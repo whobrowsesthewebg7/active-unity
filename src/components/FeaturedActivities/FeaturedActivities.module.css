@@ -1,5 +1,5 @@
 .featured_activities {
-  @apply flex h-auto py-10 px-[5vw] md:px-[10vw] flex-col gap-5 bg-zinc-800;
+  @apply flex min-h-[722px] py-10 px-[5vw] md:px-[10vw] flex-col gap-5 bg-zinc-800;
 }
 
 .featured_activities h2 {
