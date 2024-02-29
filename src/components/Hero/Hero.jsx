@@ -42,6 +42,10 @@ const Hero = () => {
       <video className={styles.video} autoPlay muted loop disableRemotePlayback>
         <source
           src={`${BASENAME}/video/welcome_to_stockholm.webm`}
+          type="video/webm"
+        />
+        <source
+          src={`${BASENAME}/video/welcome_to_stockholm.mp4`}
           type="video/mp4"
         />
         Your browser does not support the video tag.
