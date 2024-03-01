@@ -1,7 +1,11 @@
 .parent {
-    @apply bg-zinc-800 h-[70vh] lg:h-[90vh] w-full relative -z-20
+    @apply bg-zinc-800 h-[70vh] lg:h-[90vh] w-full relative -z-10
 
 }
+
+.overlay {
+    @apply absolute top-0 left-0 w-full h-full bg-black opacity-40 z-10;
+  }
 /* .content {
     @apply flex flex-col min-w-28 text-white px-3.5 py-8 top-0
     md:top-1/3 md:p-10 md:absolute 
@@ -9,7 +13,7 @@
 } */
 
 .content {
-    @apply absolute top-0 left-0 h-full w-full flex justify-center sm:justify-start items-center px-[10vw] z-10 
+    @apply absolute top-0 left-0 h-full w-full flex justify-center sm:justify-start items-center px-[10vw] z-10
 }
 
 .container {
@@ -23,7 +27,7 @@
 
 .title{
     @apply font-bold mb-4 block leading-snug
-    lg:mb-8
+    lg:mb-8 
 }
 
 .subtitle {
