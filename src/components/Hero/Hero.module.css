@@ -1,5 +1,6 @@
 .parent {
     @apply bg-zinc-800 h-[70vh] lg:h-[90vh] w-full relative
+
 }
 
 .overlay {
