@@ -1,5 +1,5 @@
 .parent {
-    @apply w-full pl-[5vw] pr-[5vw] md:pl-[10vw] md:pr-[10vw] py-3 bg-zinc-800 z-30;
+    @apply fixed w-full pl-[5vw] pr-[5vw] md:pl-[10vw] md:pr-[10vw] py-3 bg-zinc-800 z-30;
 }
 
 .logo {
